@@ -1,0 +1,35 @@
+{
+	title: "Primitive Circuitry",
+	icon: "gregtech:meta_item_2 1 32455",
+	x: 12.0d,
+	y: 4.0d,
+	shape: "circle",
+	text: [
+		"§aNow might be a good time to get some more complex processing lines up, circuit components are the last thing you'll want to have a shortage of."
+	],
+	dependencies: [
+		"49b5ed5b",
+		"5747f75c"
+	],
+	tasks: [{
+		uid: "2487758f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32029"
+		}]
+	},
+	{
+		uid: "ac323eee",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32450"
+		}]
+	},
+	{
+		uid: "b5bb4777",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32455"
+		}]
+	}]
+}

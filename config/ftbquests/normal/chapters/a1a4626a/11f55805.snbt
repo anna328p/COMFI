@@ -1,0 +1,35 @@
+{
+	title: "Primitive Electronics",
+	x: 10.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Some conducting stuff, some resisting stuff...",
+	text: [
+		"§aDon't worry about resource efficiency too much, it's not like you can build a complex integrated circuit with your bare hands. Just be happy you've got something functional!"
+	],
+	dependencies: [
+		"b11e151e",
+		"9dd915f2"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "c674ef61",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32487"
+		}]
+	}],
+	rewards: [{
+		uid: "20f15d3e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32001",
+		count: 2
+	},
+	{
+		uid: "683adbf2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 2,
+		random_bonus: 2
+	}]
+}

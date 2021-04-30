@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: 6.0d,
+	shape: "hexagon",
+	description: "Keeping all the dangly bits in",
+	text: [
+		""
+	],
+	dependencies: [
+		"5cd3fcce",
+		"151fc5f1",
+		"9dd915f2"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "accf1f86",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	}]
+}

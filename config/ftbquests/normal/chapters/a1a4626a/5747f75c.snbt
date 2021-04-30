@@ -1,0 +1,15 @@
+{
+	title: "Steel Molds",
+	icon: "gregtech:meta_item_1 1 32300",
+	disable_toast: true,
+	x: 14.0d,
+	y: 6.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f62dde61"
+	]
+}

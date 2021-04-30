@@ -1,0 +1,31 @@
+{
+	title: "Wire Cutters",
+	x: 10.0d,
+	y: 2.0d,
+	description: "So much for precision...",
+	text: [
+		"§7Wire cutters can be used to create primitive wires in the steam age. Wires have very poor resource efficiency until you have the wiremill."
+	],
+	dependencies: [
+		"54dc380e"
+	],
+	tasks: [{
+		uid: "926bb1b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWireCutter",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWireCutter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

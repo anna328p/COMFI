@@ -1,0 +1,15 @@
+{
+	disable_toast: true,
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"2adb82fa"
+	],
+	tasks: [{
+		uid: "5c4f02e2",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32202"
+		}]
+	}]
+}

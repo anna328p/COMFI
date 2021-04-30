@@ -1,0 +1,28 @@
+{
+	title: "Bronze Plating",
+	icon: "gregtech:meta_item_1 1 12095",
+	x: 4.0d,
+	y: 8.0d,
+	description: "Quite a lot of wrist action...",
+	text: [
+		"§7The main application of bronze at this stage, a lot of bronze plates will be needed to build steam machines and pipes."
+	],
+	dependencies: [
+		"929b9b57",
+		"43ab6d80"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "88637254",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12095"
+		}]
+	}],
+	rewards: [{
+		uid: "4ce26d8f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		random_bonus: 2
+	}]
+}

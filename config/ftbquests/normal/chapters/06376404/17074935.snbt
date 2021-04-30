@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"§7The architect's sawbench allows you to convert blocks into a wide variety of different shapes, useful for complex builds."
+	],
+	tasks: [{
+		uid: "ab79f472",
+		type: "item",
+		items: [{
+			item: "architecturecraft:sawbench"
+		}]
+	}]
+}

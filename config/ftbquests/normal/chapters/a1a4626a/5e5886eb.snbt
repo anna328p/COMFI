@@ -1,0 +1,19 @@
+{
+	title: "Wrought Iron",
+	x: 8.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	text: [
+		"§aIt'd probably be a good idea to process some of your iron a bit more; wrought iron's much sturdier and easier to shape."
+	],
+	dependencies: [
+		"54dc380e"
+	],
+	tasks: [{
+		uid: "52190086",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10197"
+		}]
+	}]
+}

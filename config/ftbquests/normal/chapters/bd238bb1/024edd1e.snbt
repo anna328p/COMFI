@@ -1,0 +1,15 @@
+{
+	title: "Steel",
+	icon: "gregtech:meta_item_1 1 10184",
+	disable_toast: true,
+	x: 4.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"5cd3fcce"
+	],
+	optional: true
+}

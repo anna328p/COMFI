@@ -1,0 +1,18 @@
+{
+	title: "Electric Motors",
+	x: 10.0d,
+	y: 6.0d,
+	text: [
+		"§7Motors are a very important electrical component, and you'll want to start making a lot of them once you have access to the wiremill."
+	],
+	dependencies: [
+		"9dd915f2"
+	],
+	tasks: [{
+		uid: "ee08165d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32600"
+		}]
+	}]
+}

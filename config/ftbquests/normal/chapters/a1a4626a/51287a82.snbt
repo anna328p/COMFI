@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 8.0d,
+	text: [
+		"§7The traveler's backpack provides a large expansion to your inventory, as well as a portable bed, crafting table, and tanks.",
+		"It can also be worn on your back to save an inventory slot."
+	],
+	dependencies: [
+		"5cd3fcce",
+		"b381b9bc"
+	],
+	optional: true,
+	min_width: 250,
+	tasks: [{
+		uid: "8ce7cc30",
+		type: "item",
+		items: [{
+			item: "travelersbackpack:travelers_backpack"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Water Supplies",
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		"§7Water tanks provide a slow but steady source of infinite water, which is output on their bottom face."
+	],
+	dependencies: [
+		"df50e0e6",
+		"d8aaf3c4"
+	],
+	tasks: [{
+		uid: "bf78aade",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_water"
+		}],
+		count: 26L
+	}],
+	rewards: [{
+		uid: "2b1d295b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 4,
+		random_bonus: 2
+	}]
+}

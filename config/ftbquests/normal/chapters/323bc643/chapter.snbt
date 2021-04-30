@@ -1,0 +1,7 @@
+{
+	title: "Agriculture",
+	icon: "minecraft:iron_hoe",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

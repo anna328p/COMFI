@@ -1,0 +1,70 @@
+{
+	title: "Manual Metalworking",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "darmstadtium"
+			}
+		},
+		Damage: 6s
+	},
+	x: 6.0d,
+	y: 4.0d,
+	shape: "pentagon",
+	description: "It's all in the wrist action",
+	text: [
+		"§7Hammers and files can be used to form metal into more useful shapes by hand. Machines will allow more to be done with fewer resources compared to manual metalworking."
+	],
+	dependencies: [
+		"76a96086"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "03095188",
+		type: "item",
+		title: "Craft a hammer",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolHardHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8406c7f3",
+		type: "item",
+		title: "Craft a file",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolFile",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4bc270f9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 4,
+		random_bonus: 2
+	}]
+}

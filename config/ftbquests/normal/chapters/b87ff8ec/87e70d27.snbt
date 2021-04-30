@@ -1,0 +1,12 @@
+{
+	title: "Electrical Assembly",
+	icon: "gregtech:machine 1 100",
+	disable_toast: true,
+	x: 8.0d,
+	y: -4.0d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae8156a5"
+	]
+}

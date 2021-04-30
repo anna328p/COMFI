@@ -1,0 +1,14 @@
+{
+	title: "Fertile Plains",
+	icon: "minecraft:sapling",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "Hopefully not too lethal",
+	text: [
+		""
+	],
+	dependencies: [
+		"b37eb381"
+	]
+}

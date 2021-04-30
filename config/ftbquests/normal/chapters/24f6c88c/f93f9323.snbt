@@ -1,0 +1,45 @@
+{
+	title: "Brick Forming",
+	icon: "gregtech:meta_item_2 1 32012",
+	x: 2.0d,
+	y: 4.0d,
+	description: "A bit cookie cutter, don't you think?",
+	text: [
+		"§7The chainsaw can be used in the relevant crafting recipes, and a knife can be crafted with a piece of flint."
+	],
+	dependencies: [
+		"b37eb381"
+	],
+	tasks: [{
+		uid: "9ab5c6e7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32012"
+		}]
+	},
+	{
+		uid: "f72d1401",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolKnife",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolKnife"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "218d5e25",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		random_bonus: 2
+	}]
+}

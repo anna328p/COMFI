@@ -1,0 +1,22 @@
+{
+	title: "Steam Machines",
+	icon: "gregtech:machine 1 1",
+	disable_toast: true,
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"§7Steam machines require one face dedicated to outputting exhaust. This face must be uncovered, or they won't be able to continue processing.",
+		"",
+		"You can use your wrench to set the exhaust face, as well as a soft mallet to toggle whether or not a machine is active."
+	],
+	dependencies: [
+		"ab6bbab7"
+	],
+	size: 1.5d,
+	min_width: 250,
+	tasks: [{
+		uid: "61f13121",
+		type: "checkmark"
+	}]
+}

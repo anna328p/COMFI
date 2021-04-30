@@ -1,0 +1,12 @@
+{
+	title: "Advanced Alloy",
+	icon: "gregtech:meta_item_2 1 32433",
+	disable_toast: true,
+	x: 8.0d,
+	y: -8.0d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"f028e615"
+	]
+}

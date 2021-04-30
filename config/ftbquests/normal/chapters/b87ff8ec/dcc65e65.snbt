@@ -1,0 +1,12 @@
+{
+	title: "Electrical Power",
+	icon: "gregtech:machine 1 2242",
+	disable_toast: true,
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	dependencies: [
+		"a78b43d2"
+	],
+	size: 1.5d
+}

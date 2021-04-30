@@ -1,0 +1,39 @@
+{
+	icon: "gregtech:metal_casing 1 1",
+	x: 2.0d,
+	y: 10.0d,
+	shape: "hexagon",
+	text: [
+		"§7The primitive blast furnace turns iron into steel using carbon-based fuel. Wrought iron can be processed much more quickly.",
+		"It's important to note that the PBFs can share blocks with neighboring PBFs, which can save you some firebricks."
+	],
+	dependencies: [
+		"17142d99"
+	],
+	tasks: [{
+		uid: "18b77f14",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 510"
+		}]
+	},
+	{
+		uid: "a03317d9",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "f47c1a66",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32001"
+	},
+	{
+		uid: "8fc42097",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		random_bonus: 2
+	}]
+}

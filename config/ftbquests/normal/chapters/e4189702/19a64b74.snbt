@@ -1,0 +1,13 @@
+{
+	disable_toast: true,
+	x: 2.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	tasks: [{
+		uid: "ff3d8254",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32471"
+		}]
+	}]
+}

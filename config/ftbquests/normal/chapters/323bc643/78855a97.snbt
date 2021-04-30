@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"c6f7f6d5"
+	],
+	tasks: [{
+		uid: "faea7258",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	}]
+}

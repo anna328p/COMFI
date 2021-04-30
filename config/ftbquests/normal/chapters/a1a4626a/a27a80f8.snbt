@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		"§7It's pretty self-explanatory."
+	],
+	dependencies: [
+		"b011456b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ee91143f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 15"
+		}]
+	}]
+}

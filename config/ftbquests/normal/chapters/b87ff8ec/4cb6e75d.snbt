@@ -1,0 +1,20 @@
+{
+	title: "Polycaprolactam",
+	x: 4.0d,
+	y: -2.0d,
+	description: "Also known as nylon",
+	text: [
+		""
+	],
+	dependencies: [
+		"0737b723",
+		"3202d4d3"
+	],
+	tasks: [{
+		uid: "eac45ff6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 19144"
+		}]
+	}]
+}

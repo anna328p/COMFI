@@ -1,0 +1,38 @@
+{
+	title: "Acquire Hardware",
+	icon: "minecraft:iron_ingot",
+	x: 6.0d,
+	y: 0.0d,
+	description: "Cooking up straight bars",
+	text: [
+		"§aYou'll probably want to build some more specialized tools for metalworking; the committee behind this operation didn't plan for a scenario like this, so you've only got tools for excavation and maintenance right now.",
+		"Before you do that though, you'll want to grab some material that's sturdy enough for the job. There seems to be plenty of iron in 0V3R's caves in a couple different forms."
+	],
+	dependencies: [
+		"31f15941"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "99cdddf5",
+		type: "item",
+		title: "Mine and smelt iron (Magnetite, Limonite, Pyrite, etc.)",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ae212386",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "032f5552",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 4,
+		random_bonus: 2
+	}]
+}

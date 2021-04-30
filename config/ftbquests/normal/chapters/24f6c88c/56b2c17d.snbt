@@ -1,0 +1,33 @@
+{
+	title: "Coke Oven Bricks",
+	icon: "gregtech:meta_item_2 1 32016",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"§7Clay deposits can be found underground in addition to bodies of water."
+	],
+	dependencies: [
+		"f93f9323"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "ed60ee71",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32016"
+		}]
+	},
+	{
+		uid: "07684ff1",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		}]
+	}],
+	rewards: [{
+		uid: "c9f076ef",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		random_bonus: 2
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	description: "Home reconstitution",
+	text: [
+		""
+	],
+	dependencies: [
+		"d52c1933"
+	],
+	tasks: [{
+		uid: "7a8c1b44",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}]
+}

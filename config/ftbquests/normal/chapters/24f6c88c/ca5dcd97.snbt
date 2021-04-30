@@ -1,0 +1,33 @@
+{
+	title: "Landing",
+	icon: "gtadditions:ga_meta_item 1 32561",
+	disable_toast: true,
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"§bRECEIVING TRANSMISSION FROM: Head of Field Engineering Division AP5",
+		"",
+		"§7§obzzt... bzzzzt....",
+		"§a...ear me?",
+		"Alright, good to hear you made it to the other side. The director wanted me to go over the nuts and bolts of this operation with you again since I'm your primary advisor, but I'm not sure why since you've had it drilled into you for so long prior. Not like this channel's monitored anyway.",
+		"There's just one little problem that I'm not going to mince words on though... the cargo pods are missing. All that infrastructure you were supposed to arrive on 0V3R with just... vanished in transit.",
+		"",
+		"Now, with that being said, the operation isn't being called off; aside from the fact that it's a one-way trip, the executives invested far too much in this operation to call it off, and they aren't going to expect any less of an ROI in spite of this.",
+		"I know that sounds bad, but neither of us have much control over this situation. You'll just have to get some more primitive machinery up and running before you can start getting the ball rolling as was originally intended.",
+		"",
+		"For now you'll just have to make do with what you've got on you right now; that jackhammer's more capable than it looks. Your personal Pathfinder instance will be a big help as well, J.E.I. database and all that.",
+		"I'm assuming the emergency battery pack is still working as well? It should have enough charge to keep you going until you've got some mechanical hands working for you again.",
+		"",
+		"Keep me looped in on your progress, I'll see if I can get you some extra pay as compensation for this whole debacle. ",
+		"Good luck!"
+	],
+	dependency_requirement: "one_started",
+	size: 1.5d,
+	min_width: 600,
+	tasks: [{
+		uid: "9a9e635c",
+		type: "checkmark",
+		title: "I'd better check that note."
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "Home invasion",
+	text: [
+		""
+	],
+	dependencies: [
+		"fbbc480e"
+	],
+	tasks: [{
+		uid: "277da0a1",
+		type: "item",
+		items: [{
+			item: "forestry:scoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

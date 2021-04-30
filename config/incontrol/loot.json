@@ -1,0 +1,7 @@
+[
+    {
+        "mob": ["minecraft:sheep", "minecraft:cow", "minecraft:pig"],
+        "item": "minecraft:bone",
+        "itemcount": "1/1-2/2-3"
+    }
+]

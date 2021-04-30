@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"§7Pistons are an important component in several steam machines.",
+		"They are also are an example of a component that you may want to craft in large batches; that way, you won't have to constantly fetch and arrange the components for them every time you need another one."
+	],
+	dependencies: [
+		"b7cd6cf0"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "0214172b",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}]
+}

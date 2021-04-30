@@ -1,0 +1,47 @@
+{
+	title: "Basic Logistics",
+	icon: "thermaldynamics:servo 1 2",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"§7Servos allow for easy transportation of items and fluids between inventories, and filters do what their name implies.",
+		"",
+		"They have many configuration options, most of which should be self-explanatory. (Refer to the Thermal Dynamics wiki for more information!)",
+		"",
+		"Ducts can be fitted with glass panes, allowing you to see their contents move around."
+	],
+	dependencies: [
+		"b7cd6cf0"
+	],
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "50c0cab5",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:servo 1 2"
+		}]
+	},
+	{
+		uid: "f75162c6",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:filter 1 2"
+		}]
+	},
+	{
+		uid: "fd806ea5",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_32 1 1"
+		}]
+	},
+	{
+		uid: "3b266ebd",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "Workable Rubber",
+	icon: "gregtech:meta_item_1 1 10152",
+	x: 6.0d,
+	y: 4.0d,
+	description: "It smells unbearable",
+	text: [
+		"§aI can only imagine the smell over there... that's the price of progress, I guess."
+	],
+	dependencies: [
+		"0ea181f1",
+		"71c7c69b",
+		"2eecdec2"
+	],
+	tasks: [{
+		uid: "20abf390",
+		type: "item",
+		title: "Hammer bars into sheets",
+		items: [{
+			item: "gregtech:meta_item_1 1 12152"
+		}]
+	},
+	{
+		uid: "87bcf6d4",
+		type: "item",
+		title: "Extract rubber pulp from sticky resin",
+		items: [{
+			item: "gregtech:meta_item_1 1 2153"
+		}]
+	},
+	{
+		uid: "a889e72c",
+		type: "item",
+		title: "Smelt sulfur and rubber pulp to make rubber bars",
+		items: [{
+			item: "gregtech:meta_item_1 1 10152"
+		}]
+	},
+	{
+		uid: "4520a833",
+		type: "item",
+		title: "Mine sulfur in the nether",
+		items: [{
+			item: "gregtech:meta_item_1 1 2065"
+		}]
+	}],
+	rewards: [{
+		uid: "2f163fc6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 5,
+		random_bonus: 2
+	}]
+}

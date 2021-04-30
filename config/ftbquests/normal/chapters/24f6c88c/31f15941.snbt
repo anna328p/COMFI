@@ -1,0 +1,21 @@
+{
+	title: "Excavation",
+	icon: "gregtech:meta_item_1 1 5033",
+	disable_toast: true,
+	x: 2.0d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		"§bGeological scans of 0V3R prior to your arrival detected an abundance of valuable mineral deposits, which appear to clump in large \"veins\" as opposed to the small clusters found in COMFI's home star cluster.",
+		"The mineral rocks found on the surface may be a valuable indicator of mineral deposits in the local area; as such I would advise taking note of them as is necessary."
+	],
+	dependencies: [
+		"ca5dcd97"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "613cb488",
+		type: "checkmark",
+		title: "Time to get digging, then..."
+	}]
+}

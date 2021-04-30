@@ -1,0 +1,20 @@
+{
+	title: "Cutting Machine",
+	x: 6.0d,
+	y: -6.0d,
+	description: "Like a nice trip to the dentist",
+	text: [
+		""
+	],
+	dependencies: [
+		"b62777ab",
+		"b0a0dbfe"
+	],
+	tasks: [{
+		uid: "e15ca447",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 221"
+		}]
+	}]
+}

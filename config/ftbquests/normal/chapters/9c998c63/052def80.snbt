@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	dependencies: [
+		"d27aaf45"
+	],
+	tasks: [{
+		uid: "5570000a",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockcartassembler"
+		}]
+	}]
+}

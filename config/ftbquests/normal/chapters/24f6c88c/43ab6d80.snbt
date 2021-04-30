@@ -1,0 +1,61 @@
+{
+	title: "Primitive Bronze Smithing",
+	icon: "gregtech:meta_item_1 1 10095",
+	x: 6.0d,
+	y: 6.0d,
+	description: "Like it's 500 B.C.",
+	text: [
+		"§aI'd recommend getting started with some steam-powered machinery. It might not be all that sophisticated, but it'll definitely make life easier for you and pave the way for functional manufacturing lines. It'd also be a lot easier to set up than electrical machinery right now.",
+		"Bronze will hold up a lot better than iron for that sort of application, so hopefully you know what to do."
+	],
+	dependencies: [
+		"929b9b57"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "0b183f98",
+		type: "item",
+		title: "Blend copper & tin dust to make bronze",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			}
+		}]
+	},
+	{
+		uid: "5bb86802",
+		type: "item",
+		title: "Craft a mortar",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gregMortars",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gregMortars"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "33ac8d8b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 4,
+		random_bonus: 2
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	description: "It's called personal space...",
+	text: [
+		""
+	],
+	dependencies: [
+		"024edd1e",
+		"d52c1933"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9eb91f89",
+		type: "item",
+		items: [{
+			item: "binniecore:field_kit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

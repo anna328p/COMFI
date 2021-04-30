@@ -1,0 +1,23 @@
+{
+	title: "Down Under",
+	icon: "minecraft:netherrack",
+	x: 4.0d,
+	y: 6.0d,
+	shape: "pentagon",
+	description: "Welcome to Hell",
+	text: [
+		"§dThe Nether has eluded humanity for as long as humanity has known about it. It's safe to assume that 0V3R houses its own Nether, based on its geological and biological makeup.",
+		"",
+		"There are certain resources that only form under the hellish conditions of that place; you will need to head there to obtain sulfur, for example.",
+		"Of course, make sure you're properly equipped. There's no reason to believe the denizens there will be any less lethal than they are back home."
+	],
+	dependencies: [
+		"151fc5f1"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "d6a09f3a",
+		type: "dimension",
+		dim: -1
+	}]
+}

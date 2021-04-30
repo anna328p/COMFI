@@ -1,0 +1,27 @@
+{
+	title: "Primitive Cabling",
+	icon: "gregtech:cable 1 5071",
+	x: 8.0d,
+	y: 4.0d,
+	text: [
+		"§7Cables are used to build machine hulls, primitive circuits, and motors. They're also used for power transfer once you start building electrical machinery."
+	],
+	dependencies: [
+		"49b5ed5b",
+		"d801b7e6"
+	],
+	tasks: [{
+		uid: "32f78958",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 5237"
+		}]
+	},
+	{
+		uid: "3eef34c3",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 5071"
+		}]
+	}]
+}

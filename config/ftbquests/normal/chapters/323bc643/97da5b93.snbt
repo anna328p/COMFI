@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	shape: "circle",
+	dependencies: [
+		"7c979de0"
+	],
+	tasks: [{
+		uid: "fdc919ca",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Steel Molds",
+	icon: "gregtech:meta_item_1 1 32300",
+	x: 10.0d,
+	y: 10.0d,
+	shape: "pentagon",
+	text: [
+		"§7Steel can be made into shape plates, which have a wide variety of uses as molds or extruder shapes. The most relevant application at this stage is making glass balls for vacuum tubes."
+	],
+	dependencies: [
+		"5cd3fcce"
+	],
+	tasks: [{
+		uid: "5c827d3b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32307"
+		}]
+	}]
+}

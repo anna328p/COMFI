@@ -1,0 +1,19 @@
+{
+	title: "Retrievers",
+	x: 12.0d,
+	y: 6.0d,
+	text: [
+		"§7The retriever can pull items to the inventory it's attached to, from inventories attached to a duct network."
+	],
+	dependencies: [
+		"11f55805"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4fe73ac9",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:retriever 1 2"
+		}]
+	}]
+}

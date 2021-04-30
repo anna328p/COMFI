@@ -1,0 +1,26 @@
+{
+	title: "Ecological Observation",
+	icon: "minecraft:sapling",
+	disable_toast: true,
+	x: 0.0d,
+	y: 4.0d,
+	shape: "pentagon",
+	text: [
+		"§bRECEIVING TRANSMISSION FROM: Head of 0V3R Xenobiology Research Committee",
+		"",
+		"§d0V3R is quite the beauty, isn't it? There's a lot to investigate regarding the life here, and seeing as you're the only person on the planet as of now, I'd like you to provide me with some assistance in said investigations.",
+		"",
+		"..I suppose you don't really have a choice, since you'll starve without interacting with the locals at least a little bit.",
+		"",
+		"§7Linked to Apicology and Farming quest lines"
+	],
+	dependencies: [
+		"ca5dcd97"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 400,
+	tasks: [{
+		uid: "c8c672fc",
+		type: "checkmark"
+	}]
+}

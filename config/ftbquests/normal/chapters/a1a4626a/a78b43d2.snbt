@@ -1,0 +1,24 @@
+{
+	title: "Electrical Power",
+	x: 12.0d,
+	y: 8.0d,
+	shape: "hexagon",
+	description: "Getting the ball rolling",
+	text: [
+		"§aGreat to see you've got electrical power! The director's gonna be really happy to hear this.",
+		"I'd recommend holding onto those steam machines for now, they're definitely cheaper for bulk processing at this point."
+	],
+	dependencies: [
+		"11f55805",
+		"451c086c",
+		"00664449"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6545dc98",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2242"
+		}]
+	}]
+}

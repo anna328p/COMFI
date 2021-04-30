@@ -1,0 +1,19 @@
+{
+	title: "Silicon Boule Processing",
+	x: -6.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"abe44d10"
+	],
+	tasks: [{
+		uid: "e396a04a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32440"
+		}]
+	}]
+}

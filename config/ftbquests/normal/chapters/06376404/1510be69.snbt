@@ -1,0 +1,16 @@
+{
+	title: "Primitive Field Generator",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "31e722c6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32670"
+		}]
+	}]
+}

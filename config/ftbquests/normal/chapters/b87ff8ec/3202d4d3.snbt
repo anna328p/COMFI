@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"0737b723",
+		"7f5ddf9e"
+	],
+	tasks: [{
+		uid: "c7ce52bd",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "naphtha",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

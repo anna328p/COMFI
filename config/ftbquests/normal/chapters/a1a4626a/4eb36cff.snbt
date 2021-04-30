@@ -1,0 +1,19 @@
+{
+	title: "Automatic Crafting",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"§7The mechanical crafter can be configured to automatically craft a specified recipe using ingredients from an internal storage buffer."
+	],
+	dependencies: [
+		"5e5886eb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "12cbc22a",
+		type: "item",
+		items: [{
+			item: "extrautils2:crafter"
+		}]
+	}]
+}

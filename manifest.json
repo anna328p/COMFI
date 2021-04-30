@@ -1,0 +1,18 @@
+{
+    "minecraft": {
+        "version": "1.12.2",
+        "modLoaders": [
+            {
+            "id": "forge-14.23.5.2854",
+            "primary": true
+            }
+        ]
+    },
+    "manifestType": "minecraftModpack",
+    "overrides": "overrides",
+    "manifestVersion": 1,
+    "version": "0.1.0-pa",
+    "author": "Puzzlebark",
+    "name": "COMFI"
+}
+

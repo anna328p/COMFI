@@ -1,0 +1,19 @@
+{
+	title: "Nano Circuit Fabrication",
+	disable_toast: true,
+	x: 0.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0643f769"
+	],
+	tasks: [{
+		uid: "f0669be6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2003"
+		}]
+	}]
+}

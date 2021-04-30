@@ -1,0 +1,42 @@
+{
+	title: "Primitive Backpacks",
+	icon: "forestry:digger_bag",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Keep tabs on those rocks",
+	text: [
+		"§7Forestry backpacks provide additional inventory slots that can be filled with certain broad categories of items. ",
+		"They're great for keeping all the different ore and stone variants from flooding your inventory.",
+		"",
+		"Check JEI for more variants!"
+	],
+	dependencies: [
+		"b37eb381"
+	],
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "e788079f",
+		type: "item",
+		items: [{
+			item: "forestry:digger_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b786f807",
+		type: "item",
+		items: [{
+			item: "forestry:miner_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81389208",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		random_bonus: 2
+	}]
+}

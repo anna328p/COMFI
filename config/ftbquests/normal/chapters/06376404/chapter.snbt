@@ -1,0 +1,15 @@
+{
+	title: "Base Building",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "darmstadtium"
+			}
+		},
+		Damage: 6s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

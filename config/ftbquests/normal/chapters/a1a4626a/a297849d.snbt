@@ -1,0 +1,35 @@
+{
+	title: "Bulk Fluid Storage",
+	icon: "railcraft:tank_iron_gauge",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"§7Iron tanks can store very large amounts of fluid, with the tradeoff being the amount of space and resources they take to build.",
+		"Fluid is output via a valve at the bottom of the tank."
+	],
+	dependencies: [
+		"5e5886eb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e6c88c00",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_iron_gauge"
+		}]
+	},
+	{
+		uid: "f6fe6403",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_iron_wall"
+		}]
+	},
+	{
+		uid: "76e0024a",
+		type: "item",
+		items: [{
+			item: "railcraft:tank_iron_valve"
+		}]
+	}]
+}

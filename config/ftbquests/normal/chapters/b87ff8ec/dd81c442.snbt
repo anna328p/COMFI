@@ -1,0 +1,15 @@
+{
+	title: "Aluminium Processing",
+	icon: "gregtech:meta_item_1 1 10001",
+	disable_toast: true,
+	x: 3.0d,
+	y: -3.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"93943eff"
+	]
+}

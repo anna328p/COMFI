@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"§7The macerator has many applications, the most important right now being pulverizing bricks for fireclay and increasing the yield of ore.",
+		"",
+		"§7NOTE: The macerator does not necessarily double metal output for most ore; increases in metal yield are based on the chemical composition of a given ore. Refer to JEI for information on specific processing lines.",
+		"",
+		"§7You won't need or be able to process most ore byproducts until you have electrical machinery; in fact you can completely ignore ore pulverization in the steam age without much issue."
+	],
+	dependencies: [
+		"444111da"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "a2b377f4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 9"
+		}]
+	}]
+}

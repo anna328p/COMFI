@@ -1,0 +1,16 @@
+{
+	disable_toast: true,
+	x: 4.0d,
+	y: 6.0d,
+	dependencies: [
+		"9d8e40ee",
+		"b34c6ef0"
+	],
+	tasks: [{
+		uid: "3fc0ae1a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32494"
+		}]
+	}]
+}

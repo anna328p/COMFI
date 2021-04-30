@@ -1,0 +1,39 @@
+{
+	title: "Steam Power",
+	x: 2.0d,
+	y: 6.0d,
+	shape: "hexagon",
+	description: "Not exactly steampunk",
+	text: [
+		"§aHey, good to see you've got the tools to get some steam machinery up and running now! Quite reassuring for the director as well...",
+		"",
+		"§7Small coal boilers output steam on all of their faces except for the bottom, where you can input water.",
+		"§7Make sure they've got enough water; they'll explode if they run out while heated!"
+	],
+	dependencies: [
+		"15629cce",
+		"1a01b847",
+		"d8aaf3c4",
+		"56b2c17d"
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "33b527a6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1bb95e76",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32001"
+	},
+	{
+		uid: "991e7045",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		random_bonus: 2
+	}]
+}

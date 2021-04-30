@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"§7Redstone relays transmit redstone signals across a duct network, structuralducts included.",
+		"They have several configuration options, for example the ability to only output a signal past a certain threshold of input signal power."
+	],
+	dependencies: [
+		"b7cd6cf0"
+	],
+	optional: true,
+	min_width: 300,
+	tasks: [{
+		uid: "2c994aa0",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:relay"
+		}]
+	}]
+}

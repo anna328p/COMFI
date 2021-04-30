@@ -1,0 +1,35 @@
+{
+	title: "Rubber Trees",
+	icon: "gregtech:sapling",
+	x: 0.0d,
+	y: 6.0d,
+	description: "It's flubber!",
+	text: [
+		"§bPreliminary scans of OV3R detected a species of tree that sparsely populates the planet's surface; it is a 99.73% genetic match with the rubber trees local to COMFI's home star cluster. ",
+		"The resin produced by these trees should prove useful in many industrial applications."
+	],
+	dependencies: [
+		"b37eb381"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "c894b1f6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32627"
+		}]
+	},
+	{
+		uid: "53d2be0f",
+		type: "item",
+		items: [{
+			item: "gregtech:sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "93e1a537",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		random_bonus: 2
+	}]
+}

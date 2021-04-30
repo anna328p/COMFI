@@ -1,0 +1,15 @@
+{
+	title: "Wrought Iron",
+	icon: "gregtech:meta_item_1 1 10197",
+	disable_toast: true,
+	x: 6.0d,
+	y: 6.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5e5886eb"
+	]
+}

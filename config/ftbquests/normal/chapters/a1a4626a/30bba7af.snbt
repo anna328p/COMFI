@@ -1,0 +1,19 @@
+{
+	title: "Structuralducts",
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"§7Structuralducts can be used to craft duct covers, as well as a cheap way to connect redstone relays."
+	],
+	dependencies: [
+		"5e5886eb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "110000d2",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_48"
+		}]
+	}]
+}

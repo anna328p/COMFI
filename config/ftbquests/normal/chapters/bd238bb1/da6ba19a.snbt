@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"§7The bee attractor allows you to roll for mundane bees, including the rare Valiant species, at the cost of seed oil and an ingredient that corresponds to the target species."
+	],
+	dependencies: [
+		"4835560a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "15294587",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2759"
+		}]
+	}]
+}

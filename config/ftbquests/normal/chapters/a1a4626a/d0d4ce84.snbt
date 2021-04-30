@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 8.0d,
+	text: [
+		"§7Candleberries are an early source of wax, which can be used to make candles, reinforce leather, and more."
+	],
+	dependencies: [
+		"bc9ab2bb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1fbc7ae4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beeswaxitem"
+		}]
+	}]
+}

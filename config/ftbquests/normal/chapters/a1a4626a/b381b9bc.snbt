@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 8.0d,
+	shape: "pentagon",
+	text: [
+		"§7Hardened leather can be used to make iron-equivalent armor, as well as more sophisticated backpacks."
+	],
+	dependencies: [
+		"d0d4ce84"
+	],
+	optional: true,
+	tasks: [{
+		uid: "62708b7c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatheritem"
+		}]
+	}]
+}

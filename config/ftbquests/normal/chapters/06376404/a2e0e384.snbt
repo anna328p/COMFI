@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"1510be69"
+	],
+	tasks: [{
+		uid: "6503ad03",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

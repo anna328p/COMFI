@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"§7In addition to alloying, the alloy smelter allows you to form certain shapes from steel molds, make primitive rubber, and more."
+	],
+	dependencies: [
+		"b011456b"
+	],
+	tasks: [{
+		uid: "f9f3a150",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "8707fbed",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 5,
+		random_bonus: 2
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "Automatic Assembly",
+	icon: "gregtech:machine 1 100",
+	disable_toast: true,
+	x: -2.0d,
+	y: 6.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"ae8156a5"
+	]
+}

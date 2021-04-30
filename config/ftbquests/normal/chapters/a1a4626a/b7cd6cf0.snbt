@@ -1,0 +1,29 @@
+{
+	title: "Redstone",
+	icon: "gregtech:meta_item_1 1 10237",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"§aThere shouldn't be much of a problem finding redstone on 0V3R. It's got plenty of applications at our technological level back home as you know, but it should be especially useful for you right now since you're currently working with more... primitive technology."
+	],
+	dependencies: [
+		"32a191fa"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "f6dfc18d",
+		type: "item",
+		title: "Smelt copper and redstone into red alloy",
+		items: [{
+			item: "gregtech:meta_item_1 1 10237"
+		}]
+	},
+	{
+		uid: "9a603287",
+		type: "item",
+		title: "Mine redstone at depth 10-40",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}]
+}
