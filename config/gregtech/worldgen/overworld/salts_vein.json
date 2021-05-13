@@ -2,7 +2,7 @@
   "weight": 60,
   "density": 0.7,
   "min_height": 40,
-  "surface_stone_material": "aluminium",
+  "surface_stone_material": "lepidolite",
 
   "generator": {
     "type": "ellipsoid",
