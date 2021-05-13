@@ -1,0 +1,29 @@
+{
+	title: "Portable Tanks",
+	icon: "gregtech:machine 1 813",
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"§7Tank blocks are useful for storing and transporting more specialized fluids. They can also be placed in cuboid shapes to form higher-capacity multiblock tanks."
+	],
+	dependencies: [
+		"54dc380e"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "f72fa11f",
+		type: "item",
+		title: "Craft a bronze tank",
+		items: [{
+			item: "gregtech:machine 1 812"
+		}]
+	},
+	{
+		uid: "249f28fe",
+		type: "item",
+		title: "Craft a wooden tank",
+		items: [{
+			item: "gregtech:machine 1 811"
+		}]
+	}]
+}

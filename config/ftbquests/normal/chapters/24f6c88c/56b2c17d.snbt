@@ -1,10 +1,10 @@
 {
-	title: "Coke Oven Bricks",
+	title: "Brick Cooking",
 	icon: "gregtech:meta_item_2 1 32016",
-	x: 4.0d,
+	x: 0.0d,
 	y: 4.0d,
 	text: [
-		"§7Clay deposits can be found underground in addition to bodies of water."
+		"§7Excavators can be crafted to speed up the gathering of sand and clay, and clay deposits can be found in caves as well as bodies of water."
 	],
 	dependencies: [
 		"f93f9323"

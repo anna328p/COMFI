@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"§7The steam mixer has a variety of uses such as creating more efficient red alloy blend, mixing dough, and creating fertilizer. It's also necessary for manufacturing concrete.",
+		"",
+		"Fluids in machines can be freely moved to and from portable containers such as buckets and tanks; just click the slot you want to fill or empty with the appropriate container."
+	],
+	dependencies: [
+		"b011456b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "5f90928c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2235"
+		}]
+	}]
+}

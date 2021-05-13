@@ -3,7 +3,7 @@
 	icon: "minecraft:sapling",
 	disable_toast: true,
 	x: 0.0d,
-	y: 4.0d,
+	y: 2.0d,
 	shape: "pentagon",
 	text: [
 		"§bRECEIVING TRANSMISSION FROM: Head of 0V3R Xenobiology Research Committee",

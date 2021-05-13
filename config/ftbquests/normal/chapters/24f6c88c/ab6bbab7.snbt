@@ -1,6 +1,6 @@
 {
 	title: "Steam Power",
-	x: 2.0d,
+	x: 0.0d,
 	y: 6.0d,
 	shape: "hexagon",
 	description: "Not exactly steampunk",
@@ -8,16 +8,17 @@
 		"§aHey, good to see you've got the tools to get some steam machinery up and running now! Quite reassuring for the director as well...",
 		"",
 		"§7Small coal boilers output steam on all of their faces except for the bottom, where you can input water.",
-		"§7Make sure they've got enough water; they'll explode if they run out while heated!"
+		"",
+		"Water can also be inserted manually, which you'll need to do until you have a steady supply set up.",
+		"",
+		"Make sure they've got enough water; they go through it quite slowly, but they'll explode if they run out while heated!"
 	],
 	dependencies: [
-		"15629cce",
 		"1a01b847",
-		"d8aaf3c4",
 		"56b2c17d"
 	],
 	size: 1.5d,
-	min_width: 300,
+	min_width: 350,
 	tasks: [{
 		uid: "33b527a6",
 		type: "item",

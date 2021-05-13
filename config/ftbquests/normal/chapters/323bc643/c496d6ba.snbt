@@ -1,0 +1,24 @@
+{
+	title: "Multiblock Kitchens",
+	icon: "cookingforblockheads:cooking_table",
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"§7The cooking table forms the center of the multiblock kitchen, which makes cooking the wide variety of available foodstuffs much easier. It can automatically track available ingredients in the kitchen's inventory and your own, and compile a list of food you can make with available ingredients.",
+		"",
+		"There are many components that can be added to the multiblock kitchen, such as tool racks for storing and providing cookware for recipes, toasters, sinks, and more.",
+		"",
+		"Kitchen blocks such as counters and cabinets can be dyed to change their color."
+	],
+	dependencies: [
+		"52c1a009"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b8d1d8d9",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	}]
+}

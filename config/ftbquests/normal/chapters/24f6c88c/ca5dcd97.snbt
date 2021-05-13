@@ -20,7 +20,11 @@
 		"I'm assuming the emergency battery pack is still working as well? It should have enough charge to keep you going until you've got some mechanical hands working for you again.",
 		"",
 		"Keep me looped in on your progress, I'll see if I can get you some extra pay as compensation for this whole debacle. ",
-		"Good luck!"
+		"Good luck!",
+		"",
+		"§7Welcome to COMFI! Gray text like this is intended to help the player in a more straightforward way; make sure to read it if you aren't sure how something works!",
+		"",
+		"Circles are standard progression tasks, pentagons link to other locations in the same or other tabs, and hexagons signify milestone quests."
 	],
 	dependency_requirement: "one_started",
 	size: 1.5d,
@@ -28,6 +32,6 @@
 	tasks: [{
 		uid: "9a9e635c",
 		type: "checkmark",
-		title: "I'd better check that note."
+		title: "Let's get down to business."
 	}]
 }

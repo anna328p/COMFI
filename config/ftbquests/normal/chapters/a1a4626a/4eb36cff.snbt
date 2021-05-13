@@ -1,7 +1,7 @@
 {
 	title: "Automatic Crafting",
 	x: 6.0d,
-	y: 2.0d,
+	y: 0.0d,
 	text: [
 		"§7The mechanical crafter can be configured to automatically craft a specified recipe using ingredients from an internal storage buffer."
 	],

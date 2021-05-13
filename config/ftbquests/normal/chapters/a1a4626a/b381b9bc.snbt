@@ -1,4 +1,5 @@
 {
+	icon: "harvestcraft:hardenedleatheritem",
 	x: 4.0d,
 	y: 8.0d,
 	shape: "pentagon",
@@ -6,7 +7,7 @@
 		"§7Hardened leather can be used to make iron-equivalent armor, as well as more sophisticated backpacks."
 	],
 	dependencies: [
-		"d0d4ce84"
+		"bc9ab2bb"
 	],
 	optional: true,
 	tasks: [{
@@ -14,6 +15,14 @@
 		type: "item",
 		items: [{
 			item: "harvestcraft:hardenedleatheritem"
+		}]
+	},
+	{
+		uid: "533e91db",
+		type: "item",
+		title: "Press candleberries into wax",
+		items: [{
+			item: "harvestcraft:beeswaxitem"
 		}]
 	}]
 }

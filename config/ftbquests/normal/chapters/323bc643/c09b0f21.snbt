@@ -1,0 +1,26 @@
+{
+	title: "Cotton Farming",
+	icon: "harvestcraft:wovencottonitem",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"§7Cotton seeds can be foraged from grass and grown as a source of string and woven cotten, which is useful in crafting and filtering water."
+	],
+	dependencies: [
+		"97da5b93"
+	],
+	tasks: [{
+		uid: "cad29440",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cottonseeditem"
+		}]
+	},
+	{
+		uid: "2dcb74f4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:wovencottonitem"
+		}]
+	}]
+}

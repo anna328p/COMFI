@@ -2,7 +2,7 @@
 	title: "Brick Forming",
 	icon: "gregtech:meta_item_2 1 32012",
 	x: 2.0d,
-	y: 4.0d,
+	y: 2.0d,
 	description: "A bit cookie cutter, don't you think?",
 	text: [
 		"§7The chainsaw can be used in the relevant crafting recipes, and a knife can be crafted with a piece of flint."
@@ -13,6 +13,7 @@
 	tasks: [{
 		uid: "9ab5c6e7",
 		type: "item",
+		title: "Craft a brick form",
 		items: [{
 			item: "gregtech:meta_item_2 1 32012"
 		}]
@@ -20,6 +21,7 @@
 	{
 		uid: "f72d1401",
 		type: "item",
+		title: "Craft a knife",
 		items: [{
 			ForgeCaps: {
 				Parent: {

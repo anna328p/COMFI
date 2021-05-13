@@ -1,3 +1,5 @@
-# COMFI 0.1.0-pa
+# COMFI Indev-2
 
-This repository contains scripts and resources for building the COMFI client and server.
+This repository contains scripts and resources for building the COMFI client, and acts as a central development hub for the modpack.
+
+Scripts for building a server and fetching mods are a WIP.

@@ -1,6 +1,6 @@
 {
 	icon: "gregtech:metal_casing 1 1",
-	x: 2.0d,
+	x: 0.0d,
 	y: 10.0d,
 	shape: "hexagon",
 	text: [
@@ -8,7 +8,8 @@
 		"It's important to note that the PBFs can share blocks with neighboring PBFs, which can save you some firebricks."
 	],
 	dependencies: [
-		"17142d99"
+		"17142d99",
+		"a34250b4"
 	],
 	tasks: [{
 		uid: "18b77f14",

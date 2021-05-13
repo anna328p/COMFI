@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"§7The steam pump can provide a constant source of water to your boilers; it's simple to set up and ought to be the first steam machine you make.",
+		"",
+		"What normally appears as an exhaust hatch on other steam machines is the output hatch for pumped fluids. Steam can be provided on any other face of the pump."
+	],
+	dependencies: [
+		"b011456b"
+	],
+	size: 1.25d,
+	min_width: 350,
+	tasks: [{
+		uid: "027945d5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2232"
+		}]
+	}]
+}

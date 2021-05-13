@@ -1,0 +1,18 @@
+{
+	title: "Straw Beds",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"§7Straw beds can be used to control where your animals sleep, as they prefer sleeping on straw rather than the ground."
+	],
+	dependencies: [
+		"361eb6b4"
+	],
+	tasks: [{
+		uid: "acbbb63c",
+		type: "item",
+		items: [{
+			item: "animania:block_straw"
+		}]
+	}]
+}

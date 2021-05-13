@@ -1,10 +1,10 @@
 {
 	title: "Basic Fluid Transportation",
 	icon: "thermaldynamics:duct_16 1 1",
-	x: 4.0d,
+	x: 2.0d,
 	y: 6.0d,
 	text: [
-		"§7GregTech's small bronze pipes are used for crafting steam machines, but they can also be converted into Thermal Dynamics fluiducts for more reliable fluid transportation."
+		"§7GregTech's small bronze pipes are used for crafting steam machines, but they can also be converted into Thermal Dynamics fluiducts for reliable fluid transportation."
 	],
 	dependencies: [
 		"d8aaf3c4"
@@ -13,8 +13,17 @@
 	tasks: [{
 		uid: "3ba9e88b",
 		type: "item",
+		title: "Craft some small bronze pipes",
 		items: [{
 			item: "gregtech:fluid_pipe 1 1095"
+		}]
+	},
+	{
+		uid: "08a1a0c4",
+		type: "item",
+		title: "Craft a bucket",
+		items: [{
+			item: "minecraft:bucket"
 		}]
 	}],
 	rewards: [{

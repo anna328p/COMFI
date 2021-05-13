@@ -22,14 +22,6 @@ forming_press.findRecipe(16, [<ore:plateCupronickel>.firstItem, <gregtech:meta_i
 macerator.findRecipe(2, [<minecraft:reeds>], null).remove();
 compressor.findRecipe(2, [<gregtech:meta_item_1:2325> * 9], null).remove();
 
-# Fertilizer recipe
-mixer.recipeBuilder()
-    .inputs([<ore:gemApatite>, <ore:sand>])
-    .outputs(<item:forestry:fertilizer_compound> * 4)
-    .duration(300)
-    .EUt(12)
-    .buildAndRegister();
-
 # Red alloy dust recipes
 mixer.recipeBuilder()
     .inputs([<ore:dustCopper>, <ore:dustRedstone> * 3])
@@ -129,7 +121,7 @@ compressor.recipeBuilder()
     .buildAndRegister();
 
 furnace.addRecipe(<item:contenttweaker:rotisserie_cheetor>, <item:contenttweaker:cheetor>, 15);
-recipes.addShapeless(<item:contenttweaker:cheetor_cube>, [<item:contenttweaker:cheetor> * 4]);
+recipes.addShapeless(<item:contenttweaker:cheetor_cube>, [<item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>]);
 recipes.addShapeless(<item:contenttweaker:cheetor> * 4, [<item:contenttweaker:cheetor_cube>]);
 
 # custom tooltips

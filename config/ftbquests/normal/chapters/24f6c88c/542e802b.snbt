@@ -1,16 +1,17 @@
 {
 	title: "Coke Ovens",
 	icon: "gregtech:machine 1 526",
-	x: 4.0d,
-	y: 2.0d,
+	x: 2.0d,
+	y: 4.0d,
 	text: [
-		"§7While not strictly required, coke ovens are very important as a way to make charcoal, creosote oil, and coal coke.",
+		"§7While not strictly required, coke ovens are very important as a way to produce charcoal, coal coke, and creosote oil. Steel production demands a lot of carbon-based fuel as well.",
 		"",
-		"Multiple coke oven hatches can be used for more robust automation."
+		"Coke ovens can be built with multiple hatches; you'll need 3 to automate both creosote output and item I/O."
 	],
 	dependencies: [
 		"56b2c17d"
 	],
+	min_width: 350,
 	tasks: [{
 		uid: "e64667a9",
 		type: "item",

@@ -1,0 +1,19 @@
+{
+	title: "Salt Licks",
+	x: 6.0d,
+	y: 4.0d,
+	text: [
+		"§7Mammals can use salt licks to heal. Salt licks shrink in size as they're used up."
+	],
+	dependencies: [
+		"a4c2b4e7"
+	],
+	tasks: [{
+		uid: "95ca73df",
+		type: "item",
+		items: [{
+			item: "animania:salt_lick"
+		}],
+		ignore_nbt: 1b
+	}]
+}

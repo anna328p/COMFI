@@ -4,9 +4,10 @@
 	disable_toast: true,
 	x: 2.0d,
 	y: 0.0d,
-	shape: "circle",
+	shape: "pentagon",
 	text: [
 		"§bGeological scans of 0V3R prior to your arrival detected an abundance of valuable mineral deposits, which appear to clump in large \"veins\" as opposed to the small clusters found in COMFI's home star cluster.",
+		"",
 		"The mineral rocks found on the surface may be a valuable indicator of mineral deposits in the local area; as such I would advise taking note of them as is necessary."
 	],
 	dependencies: [

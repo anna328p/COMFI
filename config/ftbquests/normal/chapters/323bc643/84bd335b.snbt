@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"§7Pigs love to roll around in mud!"
+	],
+	dependencies: [
+		"361eb6b4"
+	],
+	tasks: [{
+		uid: "0403524e",
+		type: "item",
+		items: [{
+			item: "animania:block_mud"
+		}]
+	}]
+}

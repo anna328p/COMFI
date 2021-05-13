@@ -1,0 +1,21 @@
+{
+	title: "Feeding Troughs",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"§7Troughs are a convenient way to provide your animals with food and water; they also prefer eating and drinking from them.",
+		"",
+		"§7They can be filled with a variety of foodstuffs as well as slop, which is loved by pigs."
+	],
+	dependencies: [
+		"361eb6b4"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "91212100",
+		type: "item",
+		items: [{
+			item: "animania:block_trough"
+		}]
+	}]
+}

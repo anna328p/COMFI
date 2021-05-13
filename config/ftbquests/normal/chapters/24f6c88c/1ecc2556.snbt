@@ -1,17 +1,16 @@
 {
 	title: "Primitive Backpacks",
 	icon: "forestry:digger_bag",
-	x: 2.0d,
+	x: 4.0d,
 	y: 2.0d,
 	description: "Keep tabs on those rocks",
 	text: [
-		"§7Forestry backpacks provide additional inventory slots that can be filled with certain broad categories of items. ",
-		"They're great for keeping all the different ore and stone variants from flooding your inventory.",
+		"§7Forestry backpacks provide additional inventory slots that can be filled with certain broad categories of items. They're great for keeping all the different ore and stone variants from flooding your inventory.",
 		"",
 		"Check JEI for more variants!"
 	],
 	dependencies: [
-		"b37eb381"
+		"76a96086"
 	],
 	optional: true,
 	min_width: 400,

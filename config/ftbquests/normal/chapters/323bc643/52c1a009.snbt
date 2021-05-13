@@ -1,0 +1,23 @@
+{
+	title: "Manual Metalworking",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "darmstadtium"
+			}
+		},
+		Damage: 6s
+	},
+	disable_toast: true,
+	x: 4.0d,
+	y: 4.0d,
+	shape: "pentagon",
+	description: "It's all in the wrist action",
+	text: [
+		""
+	],
+	dependencies: [
+		"929b9b57"
+	]
+}

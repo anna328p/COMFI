@@ -1,12 +1,13 @@
 {
 	title: "Primitive Bronze Smithing",
 	icon: "gregtech:meta_item_1 1 10095",
-	x: 6.0d,
-	y: 6.0d,
+	x: 4.0d,
+	y: 4.0d,
 	description: "Like it's 500 B.C.",
 	text: [
 		"§aI'd recommend getting started with some steam-powered machinery. It might not be all that sophisticated, but it'll definitely make life easier for you and pave the way for functional manufacturing lines. It'd also be a lot easier to set up than electrical machinery right now.",
-		"Bronze will hold up a lot better than iron for that sort of application, so hopefully you know what to do."
+		"",
+		"Bronze will hold up a lot better than iron for that sort of application; I trust that you know what to do."
 	],
 	dependencies: [
 		"929b9b57"
@@ -16,6 +17,7 @@
 		uid: "0b183f98",
 		type: "item",
 		title: "Blend copper & tin dust to make bronze",
+		icon: "gregtech:meta_item_1 1 10095",
 		items: [{
 			ForgeCaps: {
 				Parent: {
@@ -35,6 +37,15 @@
 		uid: "5bb86802",
 		type: "item",
 		title: "Craft a mortar",
+		icon: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 12s
+		},
 		items: [{
 			ForgeCaps: {
 				Parent: {
@@ -50,6 +61,172 @@
 			}
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "fb396249",
+		type: "item",
+		title: "Mine an ore of copper",
+		icon: "gregtech:ore_copper_0",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCopper"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreChalcopyrite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreChalcopyrite"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCuprite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCuprite"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreTenorite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreTenorite"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreTetrahedrite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreTetrahedrite"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreMalachite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreMalachite"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreChalcocite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreChalcocite"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreBornite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBornite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "cca41d16",
+		type: "item",
+		title: "Mine an ore of tin",
+		icon: "gregtech:ore_tin_0",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreTin",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreTin"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCassiterite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCassiterite"
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCassiteriteSand",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCassiteriteSand"
+				}
+			}
+		}]
 	}],
 	rewards: [{
 		uid: "33ac8d8b",

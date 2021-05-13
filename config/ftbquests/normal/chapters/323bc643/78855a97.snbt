@@ -1,8 +1,11 @@
 {
-	x: 0.0d,
-	y: 4.0d,
+	x: 4.0d,
+	y: -2.0d,
+	text: [
+		"§7The seed analyzer allows you to inspect the stats of a seed."
+	],
 	dependencies: [
-		"c6f7f6d5"
+		"97da5b93"
 	],
 	tasks: [{
 		uid: "faea7258",

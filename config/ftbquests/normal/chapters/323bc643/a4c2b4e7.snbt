@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"§7The water filter can be used to obtain fresh water and small amounts of salt for cooking. Place it in a 5x5 body of water, give it woven cotton and it'll work automatically.",
+		"",
+		"The water filter can be automated; it has an input hatch for woven cotton on its top face and an output hatch on its bottom face."
+	],
+	dependencies: [
+		"52c1a009",
+		"c09b0f21"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "a735a54f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:waterfilter"
+		}]
+	}]
+}
