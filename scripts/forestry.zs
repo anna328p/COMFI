@@ -5,7 +5,7 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 
 furnace.remove(<item:minecraft:coal:1>);
 recipes.removeByRecipeName("binniecore:field_kit");
-recipes.remove(<forestry:fertilizer_compound>)
+recipes.remove(<forestry:fertilizer_compound>);
 
 recipes.addShaped(<binniecore:field_kit:64>, [
    [null, <ore:gregFiles>, <ore:lensGlass>],

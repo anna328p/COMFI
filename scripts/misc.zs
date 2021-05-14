@@ -61,7 +61,7 @@ extractor.recipeBuilder()
    .buildAndRegister();
 
 # Animania-related recipes
-recipes.replaceAllOccurences(<animania:carving_knife>, <ore:gregKnives>)
+recipes.replaceAllOccurences(<animania:carving_knife>, <ore:gregKnives>);
 
 # Remove HC cheese recipe
-recipes.remove(<harvestcraft:cheeseitem>)
+recipes.remove(<harvestcraft:cheeseitem>);
