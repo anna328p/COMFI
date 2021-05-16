@@ -1,6 +1,11 @@
 {
 	x: -2.0d,
 	y: 0.0d,
+	text: [
+		"§7The crafting station can save up to 9 crafting recipes, and contains internal storage for crafting ingredients and GregTech tools.",
+		"",
+		"Shift-clicking a saved recipe will lock it, preventing it from getting pushed out by more recent recipes."
+	],
 	dependencies: [
 		"b011456b"
 	],
@@ -10,5 +15,10 @@
 		items: [{
 			item: "gregtech:machine 1 825"
 		}]
+	}],
+	rewards: [{
+		uid: "2fea4a2a",
+		type: "item",
+		item: "gregtech:machine_casing 1 10"
 	}]
 }

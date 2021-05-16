@@ -11,8 +11,14 @@ val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
 
 recipes.remove(<ore:cableGtSingleRedAlloy>);
 recipes.remove(<ore:cableGtSingleTin>);
-
-<gregtech:meta_item_1:32766>.displayName = "Programmable Logic Device";
+# firebricks
+recipes.remove(<gregtech:metal_casing:1>);
+# steam pump
+recipes.remove(<gregtech:machine:2232>);
+# fireclay
+recipes.removeByRecipeName("gregtech:fireclay_dust");
+# compressed coke clay
+recipes.remove(<gtadditions:ga_meta_item:32036>);
 
 recipes.addShapeless(<ore:cableGtSingleRedAlloy>.firstItem, [<ore:wireGtSingleRedAlloy>, <ore:plateRubber>]);
 recipes.addShapeless(<ore:cableGtSingleTin>.firstItem, [<ore:wireGtSingleTin>, <ore:plateRubber>]);
@@ -21,6 +27,14 @@ recipes.addShapeless(<ore:lensGlass>.firstItem, [<gregtech:meta_item_2:32454>, <
 forming_press.findRecipe(16, [<ore:plateCupronickel>.firstItem, <gregtech:meta_item_1:32304>], null).remove();
 macerator.findRecipe(2, [<minecraft:reeds>], null).remove();
 compressor.findRecipe(2, [<gregtech:meta_item_1:2325> * 9], null).remove();
+
+# Fireclay recipe
+mixer.recipeBuilder()
+    .inputs([<ore:dustBrick>, <ore:dustClay>])
+    .outputs(<ore:dustFireclay>.firstItem * 2)
+    .duration(50)
+    .EUt(8)
+    .buildAndRegister();
 
 # Red alloy dust recipes
 mixer.recipeBuilder()
@@ -123,6 +137,25 @@ compressor.recipeBuilder()
 furnace.addRecipe(<item:contenttweaker:rotisserie_cheetor>, <item:contenttweaker:cheetor>, 15);
 recipes.addShapeless(<item:contenttweaker:cheetor_cube>, [<item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>]);
 recipes.addShapeless(<item:contenttweaker:cheetor> * 4, [<item:contenttweaker:cheetor_cube>]);
+
+# compressed coke clay
+recipes.addShaped(<gtadditions:ga_meta_item:32036> * 4, [
+    [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
+    [<ore:sand>, <ore:formWood>.reuse(), <ore:sand>],
+    [<ore:sand>, <ore:sand>, <ore:sand>]
+]);
+
+recipes.addShaped(<gregtech:machine:2232>, [
+    [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+    [<ore:pipeMediumBronze>, <ore:gregWrenches>, <ore:pipeMediumBronze>],
+    [<ore:plateBronze>, <ore:rotorBronze>, <ore:plateBronze>]
+]);
+
+recipes.addShaped(<gregtech:metal_casing:1> * 2, [
+    [<gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>],
+    [<gregtech:meta_item_2:32015>, <forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000}), <gregtech:meta_item_2:32015>],
+    [<gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>]
+]);
 
 # custom tooltips
 <gregtech:machine:4021>.addTooltip(format.red("Must be used on a space station")); # Stellar Forge

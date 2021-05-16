@@ -38,5 +38,18 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "04d25dc0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 3,
+		random_bonus: 2
+	},
+	{
+		uid: "77bb9cd7",
+		type: "item",
+		item: "animania:jersey_cheese_wedge",
+		count: 4
 	}]
 }

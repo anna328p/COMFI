@@ -14,8 +14,8 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:true
-resourcePacks:["Unity-1.6.5-1.12-YABBandaid.zip","zedtech-gtce-0.2.6.zip"]
+renderClouds:false
+resourcePacks:["unity-comfi.zip","zedtech-gtce-0.2.6.zip", "comfi"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

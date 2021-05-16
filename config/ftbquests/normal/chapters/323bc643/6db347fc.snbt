@@ -10,9 +10,9 @@
 		"This quest just provides an example of the kind of recipe chains available. Poke around and see what else you can make; variety is the spice of life, after all!"
 	],
 	dependencies: [
-		"361eb6b4",
 		"c1bd9f90",
-		"1c9f5a9a"
+		"1c9f5a9a",
+		"361eb6b4"
 	],
 	min_width: 250,
 	tasks: [{

@@ -234,5 +234,18 @@
 		item: "gregtech:meta_item_1 1 32000",
 		count: 4,
 		random_bonus: 2
+	},
+	{
+		uid: "f161e2b0",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			},
+			Damage: 12s
+		}
 	}]
 }

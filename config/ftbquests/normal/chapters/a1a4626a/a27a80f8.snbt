@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: 0.0d,
+	x: 0.0d,
+	y: -2.0d,
 	shape: "circle",
 	text: [
 		"§7It's pretty self-explanatory."
@@ -15,5 +15,12 @@
 		items: [{
 			item: "gregtech:machine 1 15"
 		}]
+	}],
+	rewards: [{
+		uid: "16518521",
+		type: "item",
+		item: "gregtech:fluid_pipe 1 1095",
+		count: 2,
+		random_bonus: 2
 	}]
 }

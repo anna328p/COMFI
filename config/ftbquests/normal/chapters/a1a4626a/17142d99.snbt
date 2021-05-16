@@ -2,14 +2,15 @@
 	title: "Firebricks",
 	icon: "gregtech:meta_item_2 1 32015",
 	x: 0.0d,
-	y: 8.0d,
+	y: 6.0d,
 	description: "It just works.",
 	text: [
 		"§aSteel is very sturdy and widely applicable, but you'll need to get a blast furnace up and running to manufacture it. It doesn't have to be super fancy, but you'll need some kind of heat-resistant compound to build it with."
 	],
 	dependencies: [
 		"bc9ab2bb",
-		"8dcfbf09"
+		"8dcfbf09",
+		"ec16279c"
 	],
 	min_width: 300,
 	tasks: [{

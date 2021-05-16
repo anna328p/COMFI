@@ -1,6 +1,6 @@
 {
 	icon: "harvestcraft:hardenedleatheritem",
-	x: 4.0d,
+	x: 2.0d,
 	y: 8.0d,
 	shape: "pentagon",
 	text: [

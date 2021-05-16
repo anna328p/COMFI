@@ -1,10 +1,11 @@
 {
+	title: "Steel",
 	x: 8.0d,
 	y: 10.0d,
 	shape: "pentagon",
 	text: [
 		"§7Steel can be used to make more durable metalworking tools, molds, and more. It's also the primary material used in basic machine hulls.",
-		"Steel can also be used to make high-pressure steam boilers and machines, which work more quickly."
+		"Steel can also be used to make high-pressure steam boilers and machines, which work more quickly than their bronze counterparts."
 	],
 	dependencies: [
 		"a43fe285"

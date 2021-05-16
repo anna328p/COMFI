@@ -43,5 +43,18 @@
 			item: "thermalfoundation:wrench"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7eca0182",
+		type: "item",
+		item: "thermaldynamics:retriever 1 2",
+		count: 2
+	},
+	{
+		uid: "6554fb89",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32000",
+		count: 3,
+		random_bonus: 2
 	}]
 }

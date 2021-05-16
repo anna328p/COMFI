@@ -3,7 +3,7 @@ import shutil
 import requests
 import json
 
-packVersion = "Indev-2"
+packVersion = "Indev-3"
 basePath = ".."
 copyDirs = ["/scripts", "/resources", "/config", "/mods", "/resourcepacks"]
 

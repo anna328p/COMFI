@@ -65,3 +65,10 @@ recipes.replaceAllOccurences(<animania:carving_knife>, <ore:gregKnives>);
 
 # Remove HC cheese recipe
 recipes.remove(<harvestcraft:cheeseitem>);
+
+# temp fix until compressor recipe gen fixed
+recipes.addShaped(<minecraft:chest>, [
+   [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+   [<ore:plankWood>, null, <ore:plankWood>],
+   [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);

@@ -24,5 +24,10 @@
 		type: "item",
 		item: "gregtech:meta_item_1 1 32000",
 		random_bonus: 2
+	},
+	{
+		uid: "599e48d6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 18095"
 	}]
 }

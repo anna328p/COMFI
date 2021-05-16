@@ -6,7 +6,11 @@
 	y: 0.0d,
 	shape: "hexagon",
 	text: [
-		"§7Steam machines require one face dedicated to outputting exhaust. This face must be uncovered, or they won't be able to continue processing.",
+		"§7GregTech setups are built and operated on a larger scale relative to other tech mods; think big and don't be afraid to spend resources on large arrays of machines.",
+		"",
+		"Be sure to check JEI as well, as machines can typically do more with less compared to manual work and make many tasks easier.",
+		"",
+		"Steam machines require one face dedicated to outputting exhaust. This face must be uncovered, or they won't be able to continue processing.",
 		"",
 		"You can use your wrench to set the exhaust face, as well as a soft mallet to toggle whether or not a machine is active."
 	],
@@ -14,7 +18,7 @@
 		"ab6bbab7"
 	],
 	size: 1.5d,
-	min_width: 250,
+	min_width: 300,
 	tasks: [{
 		uid: "61f13121",
 		type: "checkmark"

@@ -1,6 +1,6 @@
 [
     {
-        "mob": ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:witch"],
+        "mob": ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:witch", "minecraft:husk"],
         "result": "deny"
     }
 ]

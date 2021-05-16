@@ -20,5 +20,12 @@
 		item: "gregtech:meta_item_1 1 32000",
 		count: 5,
 		random_bonus: 2
+	},
+	{
+		uid: "92eb0676",
+		type: "item",
+		item: "gregtech:fluid_pipe 1 1095",
+		count: 2,
+		random_bonus: 2
 	}]
 }

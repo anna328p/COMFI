@@ -9,7 +9,7 @@
 		"",
 		"Before you do that though, you'll want to grab something sturdy enough for the job. There seems to be plenty of iron in 0V3R's caves in a couple different forms.",
 		"",
-		"§7Basic resources like iron aren't sourced from a single ore in GregTech. There are many different types of ore with their own byproducts and chemical compositions, but they can just be smelted into the \"primary\" resource if need be."
+		"§7Basic resources like iron aren't sourced from a single ore in GregTech. There are many different types of ore with their own byproducts and chemical compositions, but they can just be smelted into their \"primary\" resource if need be."
 	],
 	dependencies: [
 		"31f15941"
