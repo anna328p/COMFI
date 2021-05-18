@@ -1,7 +1,7 @@
 {
 	title: "Basic Logistics",
 	icon: "thermaldynamics:servo 1 2",
-	x: 4.0d,
+	x: 2.0d,
 	y: 0.0d,
 	text: [
 		"§7Servos allow for easy transportation of items and fluids between inventories, and filters do as their name implies.",

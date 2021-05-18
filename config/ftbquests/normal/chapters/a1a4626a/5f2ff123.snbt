@@ -1,5 +1,5 @@
 {
-	x: 2.0d,
+	x: 4.0d,
 	y: 0.0d,
 	text: [
 		"§7Redstone relays transmit redstone signals across a duct network, structuralducts included.",

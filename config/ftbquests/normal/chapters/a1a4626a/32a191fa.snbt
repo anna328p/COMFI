@@ -1,6 +1,6 @@
 {
-	x: 0.0d,
-	y: 2.0d,
+	x: 1.0d,
+	y: 1.0d,
 	text: [
 		"§7In addition to alloying, the alloy smelter allows you to form certain shapes from steel molds, make primitive rubber, and more."
 	],
