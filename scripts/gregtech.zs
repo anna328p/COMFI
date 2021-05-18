@@ -19,6 +19,11 @@ recipes.remove(<gregtech:machine:2232>);
 recipes.removeByRecipeName("gregtech:fireclay_dust");
 # compressed coke clay
 recipes.remove(<gtadditions:ga_meta_item:32036>);
+recipes.removeByRecipeName("gregtech:small_gear_iron");
+recipes.removeByRecipeName("gregtech:small_gear_wrought_iron");
+
+recipes.addShapeless(<ore:gearSmallIron>.firstItem, [<ore:gregHardHammers>, <ore:plateIron>]);
+recipes.addShapeless(<ore:gearSmallWroughtIron>.firstItem, [<ore:gregHardHammers>, <ore:plateWroughtIron>]);
 
 recipes.addShapeless(<ore:cableGtSingleRedAlloy>.firstItem, [<ore:wireGtSingleRedAlloy>, <ore:plateRubber>]);
 recipes.addShapeless(<ore:cableGtSingleTin>.firstItem, [<ore:wireGtSingleTin>, <ore:plateRubber>]);

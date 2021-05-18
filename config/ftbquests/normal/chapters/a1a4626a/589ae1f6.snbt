@@ -4,7 +4,7 @@
 	x: 4.0d,
 	y: 0.0d,
 	text: [
-		"§7Servos allow for easy transportation of items and fluids between inventories, and filters do what their name implies.",
+		"§7Servos allow for easy transportation of items and fluids between inventories, and filters do as their name implies.",
 		"",
 		"They have many configuration options, most of which should be self-explanatory. (Refer to the Thermal Dynamics wiki for more information!)",
 		"",
@@ -13,7 +13,6 @@
 	dependencies: [
 		"b7cd6cf0"
 	],
-	optional: true,
 	min_width: 400,
 	tasks: [{
 		uid: "50c0cab5",
