@@ -72,3 +72,9 @@ recipes.addShaped(<minecraft:chest>, [
    [<ore:plankWood>, null, <ore:plankWood>],
    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
+
+recipes.addShaped(<minecraft:furnace>, [
+   [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+   [<ore:cobblestone>, null, <ore:cobblestone>],
+   [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+]);
