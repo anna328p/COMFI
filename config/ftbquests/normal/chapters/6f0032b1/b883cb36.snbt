@@ -1,0 +1,14 @@
+{
+	title: "Modular Computers",
+	icon: "opencomputers:case1",
+	disable_toast: true,
+	x: 4.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"6ad3f5a4"
+	]
+}

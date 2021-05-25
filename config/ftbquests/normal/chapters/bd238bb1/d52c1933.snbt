@@ -146,7 +146,7 @@
 	y: 2.0d,
 	description: "Up close and personal",
 	text: [
-		""
+		"§7\"Mundane\" bees are species with naturally occuring hives, and a hive will typically yield a princess, 0-2 drones and 0-1 combs when broken by a scoop."
 	],
 	dependencies: [
 		"0383b58e"

@@ -1,0 +1,12 @@
+{
+	title: "Construction & Decoration",
+	icon: {
+		ForgeCaps: {
+			"ocdevices:item_analyze": {}
+		},
+		id: "chisel:chisel_iron"
+	},
+	always_invisible: false,
+	group: 104293380,
+	default_quest_shape: ""
+}

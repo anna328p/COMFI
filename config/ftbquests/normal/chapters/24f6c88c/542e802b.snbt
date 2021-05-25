@@ -3,6 +3,7 @@
 	icon: "gregtech:machine 1 526",
 	x: 2.0d,
 	y: 4.0d,
+	shape: "pentagon",
 	text: [
 		"§7While not strictly required, coke ovens are very important as a way to produce charcoal, coal coke, and creosote oil. Steel production demands a lot of carbon-based fuel as well.",
 		"",

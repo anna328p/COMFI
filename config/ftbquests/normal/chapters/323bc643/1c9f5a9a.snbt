@@ -7,7 +7,9 @@
 	text: [
 		"§7More filling meals will require additional steps to make, steps that can be streamlined and/or automated with the right equipment.",
 		"",
-		"Dough can be made from flour and water. It can be used in a lot of recipes, or simply baked into bread."
+		"Dough can be made from flour and water. It can be used in a lot of recipes, or simply baked into bread.",
+		"",
+		"Make sure to eat a variety of food groups whenever you can; there will only be negative consequences if you severely neglect to keep your diet varied, but it's nice to keep tabs on since there are helpful bonuses if you do eat a variety of foods."
 	],
 	dependencies: [
 		"97da5b93",

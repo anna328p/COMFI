@@ -1,6 +1,9 @@
 {
 	x: 2.0d,
 	y: 4.0d,
+	text: [
+		"§7Bulk storage for your bees."
+	],
 	dependencies: [
 		"d52c1933"
 	],

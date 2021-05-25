@@ -1,4 +1,5 @@
 {
+	icon: "gregtech:machine 1 9",
 	x: 0.0d,
 	y: 4.0d,
 	text: [
@@ -17,6 +18,14 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 9"
+		}]
+	},
+	{
+		uid: "0bcc5c88",
+		type: "item",
+		title: "Mine diamond ore",
+		items: [{
+			item: "gregtech:ore_diamond_0"
 		}]
 	}],
 	rewards: [{

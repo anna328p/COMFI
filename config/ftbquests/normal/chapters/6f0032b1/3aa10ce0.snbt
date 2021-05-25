@@ -1,0 +1,14 @@
+{
+	title: "Down Under",
+	icon: "minecraft:netherrack",
+	disable_toast: true,
+	x: 2.0d,
+	y: -4.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"2eecdec2"
+	]
+}

@@ -12,7 +12,10 @@
 		uid: "95ca73df",
 		type: "item",
 		items: [{
-			item: "animania:salt_lick"
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "animania:salt_lick"
 		}],
 		ignore_nbt: 1b
 	}]

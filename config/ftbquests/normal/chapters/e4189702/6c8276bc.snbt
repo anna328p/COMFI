@@ -1,0 +1,18 @@
+{
+	title: "Tank Carts",
+	x: -6.0d,
+	y: 2.0d,
+	text: [
+		"§7Tank carts do as their name implies. They can be manually filled or drained, and have a filter that can be set via a container with the desired liquid."
+	],
+	dependencies: [
+		"f40f611d"
+	],
+	tasks: [{
+		uid: "5a5ba20a",
+		type: "item",
+		items: [{
+			item: "railcraft:cart_tank"
+		}]
+	}]
+}

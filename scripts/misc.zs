@@ -14,9 +14,28 @@ recipes.remove(<harvestcraft:flouritem>);
 recipes.remove(<harvestcraft:doughitem>);
 recipes.remove(<harvestcraft:beeswaxitem>);
 recipes.remove(<harvestcraft:freshwateritem>);
+recipes.remove(<harvestcraft:icecreamitem>);
+recipes.remove(<fluidfunnel:funnel>);
+mods.jei.JEI.removeAndHide(<fluidfunnel:tank>);
+mods.jei.JEI.removeAndHide(<fluidfunnel:tap>);
+recipes.removeByRecipeName("quark:hopper");
+
+recipes.addShaped(<fluidfunnel:funnel>, [
+   [<ore:plateBronze>, <ore:gregWrenches>, <ore:plateBronze>],
+   [<ore:plateBronze>, <minecraft:bucket>, <ore:plateBronze>],
+   [null, <ore:plateBronze>, null] 
+]);
+
+compressor.recipeBuilder()
+   .inputs([<ore:cropCandleberry> * 4])
+   .outputs(<harvestcraft:beeswaxitem>)
+   .duration(320)
+   .EUt(16)
+   .buildAndRegister();
 
 recipes.addShapeless(<harvestcraft:hardenedleatheritem>, [<harvestcraft:beeswaxitem>, <item:minecraft:leather>, <ore:gregSoftHammers>]);
 
+# Traveler's backpack
 recipes.addShaped(<travelersbackpack:backpack_tank>, [
    [null, <ore:plateSteel>, null],
    [<ore:gregFiles>, <ore:paneGlass>, <ore:gregHardHammers>],
@@ -29,19 +48,15 @@ recipes.addShaped(<travelersbackpack:travelers_backpack>.withTag({}), [
    [<harvestcraft:hardenedleatheritem>, <travelersbackpack:sleeping_bag_bottom>, <harvestcraft:hardenedleatheritem>] 
 ]);
 
-compressor.recipeBuilder()
-   .inputs([<ore:cropCandleberry> * 4])
-   .outputs(<harvestcraft:beeswaxitem>)
-   .duration(320)
-   .EUt(16)
-   .buildAndRegister();
-
-# Flour, dough, bread recipes
+# Various foodstuff recipes
 recipes.replaceAllOccurences(<harvestcraft:flouritem>, <ore:dustWheat>);
 recipes.replaceAllOccurences(<harvestcraft:mortarandpestleitem>, <ore:gregMortars>);
 
 recipes.addShapeless(<harvestcraft:doughitem>, [<harvestcraft:mixingbowlitem>, <ore:dustWheat>, <ore:dustWheat>, <ore:dustWheat>, <harvestcraft:freshwateritem>]);
 
+recipes.addShapeless(<harvestcraft:icecreamitem>, [<harvestcraft:mixingbowlitem>, <ore:listAllsugar>, <ore:dustSnow>, <ore:listAllmilk>]);
+
+# Food mixer recipes
 mixer.recipeBuilder()
    .inputs([<ore:dustWheat> * 2])
    .fluidInputs([<fluid:water> * 125])
@@ -50,13 +65,35 @@ mixer.recipeBuilder()
    .EUt(8)
    .buildAndRegister();
 
+mixer.recipeBuilder()
+   .inputs([<ore:dustWheat>, <ore:listAllegg>])
+   .outputs(<harvestcraft:batteritem> * 2)
+   .duration(320)
+   .EUt(8)
+   .buildAndRegister();
+
+mixer.recipeBuilder()
+   .inputs([<ore:dustSnow>, <ore:listAllsugar>])
+   .fluidInputs([<fluid:milk> * 125])
+   .outputs(<harvestcraft:icecreamitem> * 2)
+   .duration(320)
+   .EUt(8)
+   .buildAndRegister();
+
 furnace.addRecipe(<minecraft:bread>, <harvestcraft:doughitem>, 15);
 
-# Extract honey from combs
+# Extractor recipes
 extractor.recipeBuilder()
    .inputs([<ore:beeComb>])
    .outputs(<ore:dropHoney>.firstItem)
    .duration(320)
+   .EUt(8)
+   .buildAndRegister();
+
+extractor.recipeBuilder()
+   .inputs([<quark:root>])
+   .outputs(<gregtech:meta_item_1:32627> * 2)
+   .duration(160)
    .EUt(8)
    .buildAndRegister();
 
@@ -66,15 +103,6 @@ recipes.replaceAllOccurences(<animania:carving_knife>, <ore:gregKnives>);
 # Remove HC cheese recipe
 recipes.remove(<harvestcraft:cheeseitem>);
 
-# temp fix until compressor recipe gen fixed
-recipes.addShaped(<minecraft:chest>, [
-   [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-   [<ore:plankWood>, null, <ore:plankWood>],
-   [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
-]);
+recipes.addShapeless(<ore:seedWheat>.firstItem, [<minecraft:wheat>, <ore:gregKnives>]);
 
-recipes.addShaped(<minecraft:furnace>, [
-   [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-   [<ore:cobblestone>, null, <ore:cobblestone>],
-   [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
-]);
+furnace.addRecipe(<minecraft:brick>, <minecraft:clay_ball>, 15);

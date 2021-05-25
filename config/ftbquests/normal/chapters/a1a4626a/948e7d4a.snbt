@@ -1,0 +1,21 @@
+{
+	title: "Waxmaking",
+	x: 2.0d,
+	y: 8.0d,
+	shape: "pentagon",
+	text: [
+		"§7Candleberries can be pressed into wax, a useful crafting component.",
+		"",
+		"Candleberry seeds can be foraged from grass."
+	],
+	dependencies: [
+		"bc9ab2bb"
+	],
+	tasks: [{
+		uid: "6cfcac49",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beeswaxitem"
+		}]
+	}]
+}

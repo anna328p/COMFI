@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 2.0d,
 	text: [
-		"§7This machine extracts raw rubber from sticky resin, as well as sugar and dye from reeds and flowers respectively."
+		"§7This machine can extract raw rubber from resin, as well as useful materials from plants and honey from combs."
 	],
 	dependencies: [
 		"444111da"

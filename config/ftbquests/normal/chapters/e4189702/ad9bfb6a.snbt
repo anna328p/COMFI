@@ -1,0 +1,11 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "e1c21602",
+		type: "item",
+		items: [{
+			item: "opencomputers:storage 1 2"
+		}]
+	}]
+}

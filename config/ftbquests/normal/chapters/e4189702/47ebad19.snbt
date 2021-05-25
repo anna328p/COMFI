@@ -1,0 +1,24 @@
+{
+	title: "Metal Chests & Crates",
+	icon: "gregtech:machine 1 2208",
+	x: -2.0d,
+	y: 8.0d,
+	text: [
+		""
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "ee7eec9e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2208"
+		}]
+	},
+	{
+		uid: "6f3339d2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 802"
+		}]
+	}]
+}

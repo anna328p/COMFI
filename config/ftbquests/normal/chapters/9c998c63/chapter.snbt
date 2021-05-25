@@ -1,7 +1,0 @@
-{
-	title: "Transportation",
-	icon: "railcraft:cart_work",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

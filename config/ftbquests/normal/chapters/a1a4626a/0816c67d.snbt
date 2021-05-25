@@ -1,6 +1,9 @@
 {
-	x: 0.0d,
-	y: 2.0d,
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"§7The steam grinder is a multiblock equivalent of the steam macerator, useful for bulk processing. If you're willing to put the necessary resources into it, you'll have one machine doing 8 recipes in parallel."
+	],
 	dependencies: [
 		"8dcfbf09"
 	],

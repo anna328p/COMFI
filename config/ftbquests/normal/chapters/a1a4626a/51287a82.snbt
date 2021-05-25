@@ -3,6 +3,7 @@
 	y: 8.0d,
 	text: [
 		"§7The traveler's backpack provides a large expansion to your inventory, as well as a portable bed, crafting table, and tanks.",
+		"",
 		"It can also be worn on your back to save an inventory slot."
 	],
 	dependencies: [

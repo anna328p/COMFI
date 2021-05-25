@@ -1,6 +1,6 @@
 {
 	disable_toast: true,
-	x: 2.0d,
+	x: 4.0d,
 	y: 0.0d,
 	shape: "pentagon",
 	tasks: [{

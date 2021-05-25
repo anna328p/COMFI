@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	description: "Keeping everything in order",
+	text: [
+		"§7The clipboard is a convenient way to keep track of tasks in a to-do list format. ",
+		"",
+		"It can be placed on a wall and picked back up with Shift+RMB."
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "de643b1f",
+		type: "item",
+		icon: "bibliocraft:clipboard",
+		items: [{
+			item: "bibliocraft:biblioclipboard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

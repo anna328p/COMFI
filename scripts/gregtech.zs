@@ -21,6 +21,35 @@ recipes.removeByRecipeName("gregtech:fireclay_dust");
 recipes.remove(<gtadditions:ga_meta_item:32036>);
 recipes.removeByRecipeName("gregtech:small_gear_iron");
 recipes.removeByRecipeName("gregtech:small_gear_wrought_iron");
+# steam multiblocks and hatches
+recipes.remove(<gregtech:machine:4197>);
+recipes.remove(<gregtech:machine:4178>);
+recipes.remove(<gregtech:machine:4177>);
+recipes.remove(<gregtech:machine:4176>);
+
+recipes.addShaped(<gregtech:machine:4197>, [
+    [<ore:gtMetalCasingBronze>, <ore:gearBronze>, <ore:gtMetalCasingBronze>],
+    [<ore:gtMetalCasingBronze>, <gregtech:machine:15>, <ore:gtMetalCasingBronze>],
+    [<ore:gtMetalCasingBronze>, <ore:gearBronze>, <ore:gtMetalCasingBronze>]
+]);
+
+recipes.addShaped(<gregtech:machine:4178>, [
+    [<ore:gtMetalCasingBronze>, <ore:gearBronze>, <ore:gtMetalCasingBronze>],
+    [<ore:gtMetalCasingBronze>, <gregtech:machine:9>, <ore:gtMetalCasingBronze>],
+    [<ore:gtMetalCasingBronze>, <ore:gearBronze>, <ore:gtMetalCasingBronze>]
+]);
+
+recipes.addShaped(<gregtech:machine:4177>, [
+    [null, <gregtech:machine_casing:10>, null],
+    [null, <ore:chestWood>, null],
+    [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:machine:4176>, [
+    [null, <ore:chestWood>, null],
+    [null, <gregtech:machine_casing:10>, null],
+    [null, null, null]
+]);
 
 recipes.addShapeless(<ore:gearSmallIron>.firstItem, [<ore:gregHardHammers>, <ore:plateIron>]);
 recipes.addShapeless(<ore:gearSmallWroughtIron>.firstItem, [<ore:gregHardHammers>, <ore:plateWroughtIron>]);
@@ -122,26 +151,6 @@ compressor.recipeBuilder()
     .duration(320)
     .EUt(2)
     .buildAndRegister();
-
-# i ate man's head
-mixer.recipeBuilder()
-    .inputs([<ore:dustMeat> * 4])
-    .fluidInputs([<liquid:fish_oil> * 80])
-    .outputs(<item:contenttweaker:faeast>)
-    .duration(320)
-    .EUt(32)
-    .buildAndRegister();
-
-compressor.recipeBuilder()
-    .inputs([<item:contenttweaker:faeast> * 4])
-    .outputs(<item:contenttweaker:cheetor>)
-    .duration(1200)
-    .EUt(32)
-    .buildAndRegister();
-
-furnace.addRecipe(<item:contenttweaker:rotisserie_cheetor>, <item:contenttweaker:cheetor>, 15);
-recipes.addShapeless(<item:contenttweaker:cheetor_cube>, [<item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>]);
-recipes.addShapeless(<item:contenttweaker:cheetor> * 4, [<item:contenttweaker:cheetor_cube>]);
 
 # compressed coke clay
 recipes.addShaped(<gtadditions:ga_meta_item:32036> * 4, [

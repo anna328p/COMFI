@@ -1,0 +1,29 @@
+{
+	title: "Custom Computer Cases",
+	icon: "ocdevices:case_slim_oc",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b883cb36"
+	],
+	tasks: [{
+		uid: "c889d2a9",
+		type: "item",
+		title: "Craft a custom case",
+		items: [{
+			item: "ocdevices:case_slim_oc"
+		},
+		{
+			item: "ocdevices:case_workstation"
+		},
+		{
+			item: "ocdevices:case_ibm_5150"
+		},
+		{
+			item: "ocdevices:case_next"
+		}]
+	}]
+}

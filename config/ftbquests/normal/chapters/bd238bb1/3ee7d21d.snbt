@@ -1,13 +1,23 @@
 {
+	title: "Basic Beekeeping",
 	x: 0.0d,
 	y: 4.0d,
 	description: "Home reconstitution",
 	text: [
-		""
+		"§7A princess and a drone can be paired together in a bee house to create a queen. The bee house will then become active, interacting with the environment and creating the produce of the queen's species.",
+		"",
+		"The queen will inherit traits from the paired princess and drone, which will then be passed on to the next generation of bees. Careful selective breeding will allow you to create more useful specimens with valuable traits and production rates.",
+		"",
+		"Different species have different requirements to work, most notably different kinds of flowers and climate conditions. The most common mundane species, Forest and Meadow, can use any kind of flower, but other types may require more exotic plants or blocks.",
+		"",
+		"The traits of individual specimens can be examined using the field kit and portable analyzer, tools which become available with technological advancement. ",
+		"",
+		"Mundane honey combs can be placed in an extractor to create honey, and later centrifuged to obtain all potential products."
 	],
 	dependencies: [
 		"d52c1933"
 	],
+	min_width: 350,
 	tasks: [{
 		uid: "7a8c1b44",
 		type: "item",

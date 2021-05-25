@@ -1,0 +1,26 @@
+{
+	title: "Fluid Handling",
+	icon: "railcraft:manipulator 1 5",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"§7Fluid handlers come with filters."
+	],
+	dependencies: [
+		"f40f611d"
+	],
+	tasks: [{
+		uid: "ec2eaf59",
+		type: "item",
+		items: [{
+			item: "railcraft:manipulator 1 4"
+		}]
+	},
+	{
+		uid: "1d6f059c",
+		type: "item",
+		items: [{
+			item: "railcraft:manipulator 1 5"
+		}]
+	}]
+}

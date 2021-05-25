@@ -1,0 +1,24 @@
+{
+	title: "Modular Computers",
+	x: 2.0d,
+	y: 4.0d,
+	shape: "pentagon",
+	description: "Sick rig, man!",
+	text: [
+		""
+	],
+	dependencies: [
+		"ad9bfb6a",
+		"f3b43d4a",
+		"e24a7415",
+		"d588953f"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "02e53684",
+		type: "item",
+		items: [{
+			item: "opencomputers:case1"
+		}]
+	}]
+}

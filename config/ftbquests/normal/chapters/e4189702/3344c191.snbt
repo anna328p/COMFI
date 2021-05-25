@@ -1,0 +1,57 @@
+{
+	title: "Mechanical Tracks",
+	icon: {
+		id: "railcraft:track_kit",
+		tag: {
+			railcraft: {
+				kit: "railcraft_locking"
+			}
+		},
+		Damage: 10s
+	},
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		"§7Some kits provide useful mechanisms for controlling carts.",
+		"",
+		"Locking tracks are the most useful in automation setups, as they can hold trains or individual carts in place until provided a redstone signal. An example use case is holding a tank cart in place until its tank has been filled.",
+		"",
+		"The basic functionality of locking tracks is as follows:",
+		"- Lockdown modes bring carts and trains to a complete stop unless powered.",
+		"- Boarding modes push carts and trains in the direction the track is facing when powered.",
+		"- Holding mode pushes carts and trains in the direction they were originally travelling in when powered.",
+		"",
+		"This quest only requires one kit for completion, and there are many more types of kits available."
+	],
+	dependencies: [
+		"f40f611d"
+	],
+	min_width: 400,
+	or_tasks: true,
+	tasks: [{
+		uid: "2a07aa87",
+		type: "item",
+		items: [{
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_locking"
+				}
+			},
+			Damage: 10s
+		}]
+	},
+	{
+		uid: "e20c8d7e",
+		type: "item",
+		items: [{
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_one_way"
+				}
+			},
+			Damage: 11s
+		}]
+	}]
+}

@@ -12,13 +12,23 @@
 	tasks: [{
 		uid: "cad29440",
 		type: "item",
+		title: "Forage cotton seeds",
 		items: [{
 			item: "harvestcraft:cottonseeditem"
 		}]
 	},
 	{
-		uid: "2dcb74f4",
+		uid: "88a42205",
 		type: "item",
+		title: "Turn cotton into string",
+		items: [{
+			item: "minecraft:string"
+		}]
+	},
+	{
+		uid: "fe71f68e",
+		type: "item",
+		title: "Weave string into cloth",
 		items: [{
 			item: "harvestcraft:wovencottonitem"
 		}]

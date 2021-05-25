@@ -1,0 +1,57 @@
+{
+	title: "Picket Fencing",
+	icon: "cfm:upgraded_gate_oak",
+	x: 4.0d,
+	y: -2.0d,
+	text: [
+		"§7An alternative to vanilla fencing."
+	],
+	tasks: [{
+		uid: "6b217d87",
+		type: "item",
+		title: "Craft upgraded fencing",
+		icon: "cfm:upgraded_fence_oak",
+		items: [{
+			item: "cfm:upgraded_fence_oak"
+		},
+		{
+			item: "cfm:upgraded_fence_spruce"
+		},
+		{
+			item: "cfm:upgraded_fence_birch"
+		},
+		{
+			item: "cfm:upgraded_fence_jungle"
+		},
+		{
+			item: "cfm:upgraded_fence_acacia"
+		},
+		{
+			item: "cfm:upgraded_fence_dark_oak"
+		}]
+	},
+	{
+		uid: "323736c5",
+		type: "item",
+		title: "Craft an upgraded gate",
+		icon: "cfm:upgraded_gate_oak",
+		items: [{
+			item: "cfm:upgraded_gate_oak"
+		},
+		{
+			item: "cfm:upgraded_gate_spruce"
+		},
+		{
+			item: "cfm:upgraded_gate_birch"
+		},
+		{
+			item: "cfm:upgraded_gate_jungle"
+		},
+		{
+			item: "cfm:upgraded_gate_acacia"
+		},
+		{
+			item: "cfm:upgraded_gate_dark_oak"
+		}]
+	}]
+}

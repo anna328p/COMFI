@@ -1,0 +1,23 @@
+{
+	title: "Fishing",
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"§7A reliable source of protein if you're having trouble hunting."
+	],
+	dependencies: [
+		"c09b0f21"
+	],
+	tasks: [{
+		uid: "53740849",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

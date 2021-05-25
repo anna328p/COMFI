@@ -1,0 +1,44 @@
+{
+	title: "Railroads",
+	icon: "minecraft:rail",
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"§7Railroads are an efficient way to transport things over long distances. Tracks start off relatively cheap, and only get cheaper with more advanced machinery and metalworking. Carts require some form of propulsion, usually either powered railing or locomotives.",
+		"",
+		"There are several variants of tracks with different traits, and they can all be fitted with track kits that provide specialized functionality.",
+		"",
+		"Crowbars can be used to interact with tracks (removal, attachment settings, etc.) and push carts in the direction the user is facing. They can also be used to link carts; shift right-click one cart to start a link, and shift right-click another in close enough proximity to link them together.",
+		"",
+		"GregTech crowbars and spades can be used on tracks, but their behavior with Railcraft is quite buggy, so you are recommended to use Railcraft crowbars."
+	],
+	dependencies: [
+		"fecebd6a",
+		"2d927e61"
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "61426c8e",
+		type: "item",
+		items: [{
+			item: "minecraft:rail"
+		}]
+	},
+	{
+		uid: "3fc33294",
+		type: "item",
+		items: [{
+			item: "minecraft:minecart"
+		}]
+	}],
+	rewards: [{
+		uid: "55fcbf99",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "railcraft:tool_crowbar_iron"
+		}
+	}]
+}

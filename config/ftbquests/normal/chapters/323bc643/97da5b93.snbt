@@ -1,6 +1,6 @@
 {
 	title: "Growing Crops",
-	icon: "harvestcraft:oatsseeditem",
+	icon: "harvestcraft:artichokeseeditem",
 	x: 4.0d,
 	y: 0.0d,
 	shape: "circle",

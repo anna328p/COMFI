@@ -1,0 +1,12 @@
+{
+	title: "Living off the Land",
+	icon: {
+		ForgeCaps: {
+			"ocdevices:item_analyze": {}
+		},
+		id: "railcraft:tool_hoe_steel"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

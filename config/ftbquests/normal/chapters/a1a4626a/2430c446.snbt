@@ -1,6 +1,9 @@
 {
-	x: 2.0d,
-	y: -2.0d,
+	x: 1.0d,
+	y: -1.0d,
+	text: [
+		"§7The steam oven is a multiblock equivalent of the steam oven, useful for bulk processing. If you're willing to put the necessary resources into it, you'll have one machine doing 8 recipes in parallel."
+	],
 	dependencies: [
 		"a27a80f8"
 	],

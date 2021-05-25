@@ -1,0 +1,28 @@
+{
+	title: "Fancy Lighting",
+	icon: "bibliocraft:lanterniron",
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"34093400",
+		"1ed22455"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "19772940",
+		type: "item",
+		items: [{
+			item: "bibliocraft:lanterniron"
+		}]
+	},
+	{
+		uid: "42b6098e",
+		type: "item",
+		items: [{
+			item: "quark:candle"
+		}]
+	}]
+}

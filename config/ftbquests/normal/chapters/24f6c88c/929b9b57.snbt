@@ -14,7 +14,9 @@
 	shape: "pentagon",
 	description: "It's all in the wrist action",
 	text: [
-		"§7Hammers and files can be used to form metal into more useful shapes by hand. Machines will allow more to be done with fewer resources compared to manual metalworking."
+		"§7Hammers and files can be used to form metal into more useful shapes by hand. Machines will allow more to be done with fewer resources compared to manual metalworking.",
+		"",
+		"Your electric tools can also be used in crafting recipes instead of their manual counterparts."
 	],
 	dependencies: [
 		"76a96086"

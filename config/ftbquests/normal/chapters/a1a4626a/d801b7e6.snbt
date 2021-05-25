@@ -5,7 +5,9 @@
 	y: 4.0d,
 	description: "It smells unbearable",
 	text: [
-		"§aI can only imagine the smell over there... that's the price of progress, I guess."
+		"§aI can only imagine the smell over there... that's the price of progress, I guess.",
+		"",
+		"§7Cave roots can be used as an alternative, albiet non-renewable source of rubber pulp."
 	],
 	dependencies: [
 		"0ea181f1",

@@ -1,0 +1,33 @@
+{
+	title: "Industrial Lighting",
+	icon: "projectred-illumination:inverted_cage_lamp 1 1",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3aa10ce0",
+		"b033c416"
+	],
+	tasks: [{
+		uid: "fe7ae157",
+		type: "item",
+		title: "Mix glowstone and dye into illumar",
+		icon: "projectred-core:resource_item 1 500",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "projredIllumar",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any projredIllumar"
+				}
+			}
+		}]
+	}]
+}

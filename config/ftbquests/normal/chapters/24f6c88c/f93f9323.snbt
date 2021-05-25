@@ -47,6 +47,11 @@
 	{
 		uid: "be641ed2",
 		type: "item",
-		item: "thermalfoundation:tool.excavator_copper"
+		item: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "thermalfoundation:tool.excavator_copper"
+		}
 	}]
 }

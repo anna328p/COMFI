@@ -3,7 +3,9 @@
 	y: 0.0d,
 	description: "Home invasion",
 	text: [
-		""
+		"§dThose insects are quite interesting, are they not? I'd like to get a look at one up close, if it's not too much of a bother for you...",
+		"",
+		"§7Bees can be collected from naturally occuring hives with a scoop. They're not going to be too happy about it, though..."
 	],
 	dependencies: [
 		"fbbc480e"
@@ -12,7 +14,10 @@
 		uid: "277da0a1",
 		type: "item",
 		items: [{
-			item: "forestry:scoop"
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "forestry:scoop"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

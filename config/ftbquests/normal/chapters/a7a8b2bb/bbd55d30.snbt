@@ -1,4 +1,5 @@
 {
+	disable_toast: true,
 	x: 13.0d,
 	y: 12.0d,
 	dependencies: [
@@ -10,5 +11,11 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32549"
 		}]
+	}],
+	rewards: [{
+		uid: "fb40cbf6",
+		type: "toast",
+		title: "Thanks for playing!",
+		auto: "enabled"
 	}]
 }

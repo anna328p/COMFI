@@ -1,0 +1,18 @@
+{
+	title: "Powered Railing",
+	x: -6.0d,
+	y: 4.0d,
+	text: [
+		"§7If you need gold, it can be obtained by smelting precious metal ingots."
+	],
+	dependencies: [
+		"f40f611d"
+	],
+	tasks: [{
+		uid: "a5c27580",
+		type: "item",
+		items: [{
+			item: "railcraft:rail 1 1"
+		}]
+	}]
+}

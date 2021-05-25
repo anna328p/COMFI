@@ -1,0 +1,18 @@
+{
+	title: "Fancy Signs",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1ed22455"
+	],
+	tasks: [{
+		uid: "8c142677",
+		type: "item",
+		items: [{
+			item: "bibliocraft:fancysign"
+		}]
+	}]
+}

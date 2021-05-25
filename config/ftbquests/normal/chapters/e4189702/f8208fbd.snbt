@@ -1,0 +1,26 @@
+{
+	title: "Item Handling",
+	icon: "railcraft:manipulator 1 1",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"§7Item handlers come with filters."
+	],
+	dependencies: [
+		"f40f611d"
+	],
+	tasks: [{
+		uid: "d3cf2db7",
+		type: "item",
+		items: [{
+			item: "railcraft:manipulator"
+		}]
+	},
+	{
+		uid: "de6d643d",
+		type: "item",
+		items: [{
+			item: "railcraft:manipulator 1 1"
+		}]
+	}]
+}

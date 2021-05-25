@@ -3,7 +3,7 @@
 	x: 6.0d,
 	y: 2.0d,
 	text: [
-		"§7Structuralducts can be used to craft duct covers, as well as a cheap way to connect redstone relays."
+		"§7Structuralducts can be used to craft duct covers, and can serve as a cheap way to connect redstone relays."
 	],
 	dependencies: [
 		"5e5886eb"

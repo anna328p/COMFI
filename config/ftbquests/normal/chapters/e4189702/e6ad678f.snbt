@@ -1,0 +1,51 @@
+{
+	title: "Propulsion Tracks",
+	icon: {
+		id: "railcraft:track_kit",
+		tag: {
+			railcraft: {
+				kit: "railcraft_control"
+			}
+		},
+		Damage: 4s
+	},
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"§7Powered railing kits can be used to make your carts move without locomotives.",
+		"",
+		"Booster tracks slow passing carts when unpowered, and speed them up when powered. Control tracks boost carts in their configured direction.",
+		"",
+		"This quest only requires one kit for completion, and there are many more types of kits available."
+	],
+	dependencies: [
+		"281970c9"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "5a93950b",
+		type: "item",
+		items: [{
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_booster"
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "b26d5765",
+		type: "item",
+		items: [{
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_control"
+				}
+			},
+			Damage: 4s
+		}]
+	}]
+}

@@ -1,10 +1,9 @@
 {
-	title: "Fertile Plains",
+	title: "Ecological Observation",
 	icon: "minecraft:sapling",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "pentagon",
-	description: "Hopefully not too lethal",
 	text: [
 		""
 	],

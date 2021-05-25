@@ -1,0 +1,66 @@
+{
+	title: "Storage Drawers",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 1s
+	},
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		"§7Storage drawers can store single types of items in bulk. There are several variants that can support up to 4 drawers in one block, with the tradeoff of less space per drawer.",
+		"",
+		"A stack of items can be inserted by right-clicking, or double right-clicking to insert all the stacks in your inventory.",
+		"",
+		"A single item can be withdrawn by left clicking, and shift left-clicking withdraws a stack of items.",
+		"",
+		"Framed drawers can be fitted with solid blocks to create custom drawer styles; see the Framing Table quest in Construction & Decoration."
+	],
+	min_width: 350,
+	tasks: [{
+		uid: "1cf07ee4",
+		type: "item",
+		title: "Craft a storage drawer",
+		icon: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 1s
+		},
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "drawerBasic",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any drawerBasic"
+				}
+			}
+		},
+		{
+			item: "storagedrawers:customdrawers"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 1"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 2"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 2"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 3"
+		},
+		{
+			item: "storagedrawers:customdrawers 1 4"
+		}]
+	}]
+}

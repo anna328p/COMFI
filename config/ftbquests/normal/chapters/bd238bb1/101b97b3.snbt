@@ -1,6 +1,9 @@
 {
 	x: 4.0d,
 	y: 4.0d,
+	text: [
+		"§7Portable storage for your bees."
+	],
 	dependencies: [
 		"e2f86f5f"
 	],
