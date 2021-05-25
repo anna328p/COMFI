@@ -1,4 +1,4 @@
-# COMFI Indev-4
+# COMFI Indev-5
 
 This repository contains scripts and resources for building the COMFI client, and acts as a central development hub for the modpack.
 
