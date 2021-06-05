@@ -1,14 +1,35 @@
 {
-	x: 0.0d,
+	x: -4.0d,
 	y: 2.0d,
+	text: [
+		"§7The steam chunk miner can mine all the ore in the chunk it's placed in over time. It requires a constant supply of steam and drilling fluid to keep working, so it may be difficult to keep running consistently at this stage.",
+		"",
+		"It's better to place the chunk miner at the same altitude as the top layer of a vein, as it will scan through each block at or below its altitude to detect ore."
+	],
 	dependencies: [
 		"ec16279c"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "2eb645b3",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 4212"
 		}]
+	}],
+	rewards: [{
+		uid: "eee11633",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "drilling_fluid",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 2
 	}]
 }

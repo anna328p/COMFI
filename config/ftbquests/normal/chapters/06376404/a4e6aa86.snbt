@@ -1,0 +1,39 @@
+{
+	title: "Industrial Lighting",
+	icon: "projectred-illumination:inverted_cage_lamp 1 1",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"§7Illumar is a compound that can be used to create a wide variety of industrial lights, perfect for adding character to a factory."
+	],
+	dependencies: [
+		"3aa10ce0",
+		"b033c416"
+	],
+	tasks: [{
+		uid: "fe7ae157",
+		type: "item",
+		title: "Mix glowstone and dye into illumar",
+		icon: "projectred-core:resource_item 1 500",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "projredIllumar",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any projredIllumar"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d5210ba6",
+		type: "item",
+		item: "minecraft:glowstone_dust",
+		count: 8
+	}]
+}

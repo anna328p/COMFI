@@ -1,7 +1,7 @@
 {
 	title: "Tool Racks",
-	x: -2.0d,
-	y: 6.0d,
+	x: 0.0d,
+	y: 0.0d,
 	text: [
 		"§7Tool racks can be used to conveniently store and access tools in-world. They also look nice!",
 		"",

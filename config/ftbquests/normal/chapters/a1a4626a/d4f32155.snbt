@@ -1,6 +1,9 @@
 {
 	x: 6.0d,
 	y: -2.0d,
+	text: [
+		"§7Redprints can copy and paste the settings of a duct attachment."
+	],
 	dependencies: [
 		"589ae1f6"
 	],
@@ -12,6 +15,13 @@
 			item: "thermalfoundation:diagram_redprint"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "7efb28c4",
+		type: "choice",
+		icon: "thermalfoundation:material 1 512",
+		table: 0
 	}]
 }

@@ -1,0 +1,28 @@
+{
+	title: "Salt Licks",
+	x: 8.0d,
+	y: 6.0d,
+	text: [
+		"§7Large mammals can a salt lick to heal, shrinking it in the process."
+	],
+	dependencies: [
+		"a4c2b4e7"
+	],
+	tasks: [{
+		uid: "95ca73df",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "animania:salt_lick"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7484d0d8",
+		type: "item",
+		item: "harvestcraft:wovencottonitem",
+		random_bonus: 1
+	}]
+}

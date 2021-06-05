@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"§7The seed analyzer allows you to inspect the stats of a seed."
+	],
+	dependencies: [
+		"97da5b93"
+	],
+	tasks: [{
+		uid: "faea7258",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "027effa3",
+		type: "item",
+		item: "agricraft:journal"
+	}]
+}

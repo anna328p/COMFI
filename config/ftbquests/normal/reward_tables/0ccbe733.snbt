@@ -1,0 +1,37 @@
+{
+	title: "Steam Machines - Crafting Station",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			},
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			},
+			Damage: 9s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			},
+			Damage: 8s
+		}
+	}]
+}

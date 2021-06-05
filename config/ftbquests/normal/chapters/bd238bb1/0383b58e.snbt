@@ -1,4 +1,5 @@
 {
+	title: "Scoop",
 	x: 2.0d,
 	y: 0.0d,
 	description: "Home invasion",
@@ -8,12 +9,33 @@
 		"§7Bees can be collected from naturally occuring hives with a scoop. They're not going to be too happy about it, though..."
 	],
 	dependencies: [
-		"fbbc480e"
+		"7cba9057"
 	],
 	tasks: [{
 		uid: "277da0a1",
 		type: "item",
+		title: "Craft a scoop",
+		icon: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "forestry:scoop"
+		},
 		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gregScoops",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gregScoops"
+				}
+			}
+		},
+		{
 			ForgeCaps: {
 				"ocdevices:item_analyze": {}
 			},

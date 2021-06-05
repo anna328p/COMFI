@@ -1,0 +1,22 @@
+{
+	title: "Automatic Logging",
+	x: -6.0d,
+	y: 6.0d,
+	text: [
+		"§7Carts equipped with a wood cutter will plant and chop trees along the track they're travelling on. The cutter will need to be repaired periodically."
+	],
+	dependencies: [
+		"112ee3b2"
+	],
+	tasks: [{
+		uid: "4803ed77",
+		type: "item",
+		items: [{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Damage: 15s
+		}]
+	}]
+}

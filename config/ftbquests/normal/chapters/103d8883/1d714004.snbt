@@ -1,0 +1,42 @@
+{
+	title: "Traps",
+	icon: "harvestcraft:groundtrap",
+	x: 10.0d,
+	y: 0.0d,
+	description: "Hands-off hunting",
+	text: [
+		"§7Traps allow you to slowly obtain animal products and fish automatically. The ground trap must be placed level with at least 5 surrounding grass blocks, and the water trap must be placed level with at least 5 surrounding water blocks. ",
+		"",
+		"The water trap uses fish bait, and the ground trap can use either grain, fruit or veggie bait. The products obtained from the ground trap depend on the bait used in the trap. Both traps must also have exposure to the sky."
+	],
+	dependencies: [
+		"c09b0f21"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "45ebcdaa",
+		type: "item",
+		items: [{
+			item: "harvestcraft:groundtrap"
+		}]
+	},
+	{
+		uid: "ae518023",
+		type: "item",
+		items: [{
+			item: "harvestcraft:watertrap"
+		}]
+	}],
+	rewards: [{
+		uid: "2dfb94ab",
+		type: "choice",
+		icon: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "animania:carving_knife"
+		},
+		table: 3
+	}]
+}

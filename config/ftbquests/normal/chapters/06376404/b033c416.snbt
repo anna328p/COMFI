@@ -1,0 +1,17 @@
+{
+	icon: "gregtech:machine 1 2235",
+	disable_toast: true,
+	x: 4.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	dependencies: [
+		"ec16279c"
+	],
+	tasks: [{
+		uid: "80170d41",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2235"
+		}]
+	}]
+}

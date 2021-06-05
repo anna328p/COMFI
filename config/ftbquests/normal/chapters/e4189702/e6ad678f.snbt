@@ -9,10 +9,10 @@
 		},
 		Damage: 4s
 	},
-	x: -4.0d,
-	y: 4.0d,
+	x: -8.0d,
+	y: 2.0d,
 	text: [
-		"§7Powered railing kits can be used to make your carts move without locomotives.",
+		"§7Powered railing kits can be used to make your carts move without their own propulsion.",
 		"",
 		"Booster tracks slow passing carts when unpowered, and speed them up when powered. Control tracks boost carts in their configured direction.",
 		"",

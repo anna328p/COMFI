@@ -1,7 +1,7 @@
 {
 	title: "Powered Railing",
 	x: -6.0d,
-	y: 4.0d,
+	y: 2.0d,
 	text: [
 		"§7If you need gold, it can be obtained by smelting precious metal ingots."
 	],

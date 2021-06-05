@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"§7The chisel can convert a wide variety of blocks into an even wider variety of decorative blocks for your base, as well as chisel blocks in-world."
+	],
+	dependencies: [
+		"1ed22455"
+	],
+	tasks: [{
+		uid: "9bf74296",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

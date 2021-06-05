@@ -8,7 +8,7 @@
 		"",
 		"There are several variants of tracks with different traits, and they can all be fitted with track kits that provide specialized functionality.",
 		"",
-		"Crowbars can be used to interact with tracks (removal, attachment settings, etc.) and push carts in the direction the user is facing. They can also be used to link carts; shift right-click one cart to start a link, and shift right-click another in close enough proximity to link them together.",
+		"Crowbars can be used to interact with tracks (removal, attachment settings, etc.) and push carts in the direction the user is facing. They can also be used to link carts; shift right-click one cart to start a link, and shift right-click another in close enough proximity to link them together and form a train.",
 		"",
 		"GregTech crowbars and spades can be used on tracks, but their behavior with Railcraft is quite buggy, so you are recommended to use Railcraft crowbars."
 	],

@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "adpother:respirator"
+	},
+	"variants": {
+		"normal": [
+			{
+				
+			}
+		],
+		"inventory": [
+			{
+				"textures": {
+					"1": "comfi:blocks/respirator_primitive_3",
+					"9": "forgeendertech:blocks/leather_light",
+					"10": "comfi:blocks/respirator_primitive_2",
+					"11": "blocks/wool_colored_white"
+				}
+			}
+		]
+	}
+}

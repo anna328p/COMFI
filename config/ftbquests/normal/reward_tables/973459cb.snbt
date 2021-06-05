@@ -1,0 +1,12 @@
+{
+	title: "Living Off the Land - Traps",
+	loot_size: 1,
+	rewards: [{
+		item: "animania:raw_prime_beef",
+		count: 2
+	},
+	{
+		item: "animania:raw_prime_pork",
+		count: 2
+	}]
+}

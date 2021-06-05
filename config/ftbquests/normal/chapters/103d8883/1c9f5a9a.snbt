@@ -1,0 +1,36 @@
+{
+	title: "Staple Foods",
+	icon: "minecraft:bread",
+	x: 4.0d,
+	y: 4.0d,
+	description: "Let's get this bread",
+	text: [
+		"§7More filling meals will require additional steps to make, steps that can be streamlined and/or automated with the right equipment.",
+		"",
+		"Dough can be made from flour and water. It can be used in a lot of recipes, or simply baked into bread.",
+		"",
+		"Make sure to eat a variety of food groups whenever you can; there will only be negative consequences if you severely neglect to keep your diet varied, but it's nice to keep tabs on since there are helpful bonuses if you do eat a variety of foods."
+	],
+	dependencies: [
+		"97da5b93",
+		"5bb5793c",
+		"a4c2b4e7"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "2898a6d4",
+		type: "item",
+		title: "Mix flour and fresh water to make dough",
+		items: [{
+			item: "harvestcraft:doughitem"
+		}]
+	},
+	{
+		uid: "a78a93ec",
+		type: "item",
+		title: "Bake bread",
+		items: [{
+			item: "minecraft:bread"
+		}]
+	}]
+}

@@ -1,4 +1,6 @@
 import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.recipe.RecipeMaps;
+import mods.gregtech.recipe.PBFRecipeBuilder;
 import mods.jei.JEI;
 
 val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
@@ -9,8 +11,14 @@ val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
 val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
 
+for recipe in RecipeMaps.getPrimitiveBlastFurnaceRecipes() {
+    recipe.remove();
+}
+
 recipes.remove(<ore:cableGtSingleRedAlloy>);
 recipes.remove(<ore:cableGtSingleTin>);
+# crafting station
+recipes.remove(<gregtech:machine:825>);
 # firebricks
 recipes.remove(<gregtech:metal_casing:1>);
 # steam pump
@@ -21,6 +29,9 @@ recipes.removeByRecipeName("gregtech:fireclay_dust");
 recipes.remove(<gtadditions:ga_meta_item:32036>);
 recipes.removeByRecipeName("gregtech:small_gear_iron");
 recipes.removeByRecipeName("gregtech:small_gear_wrought_iron");
+recipes.remove(<ore:toolHeadBuzzSawIron>.firstItem);
+recipes.remove(<ore:toolHeadBuzzSawWroughtIron>.firstItem);
+
 # steam multiblocks and hatches
 recipes.remove(<gregtech:machine:4197>);
 recipes.remove(<gregtech:machine:4178>);
@@ -51,12 +62,50 @@ recipes.addShaped(<gregtech:machine:4176>, [
     [null, null, null]
 ]);
 
+recipes.addShaped(<gregtech:meta_item_2:32570>, [
+    [<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>],
+    [<ore:treeSapling>, <ore:gregSoftHammers>, <ore:treeSapling>],
+    [<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>]
+]);
+
+PBFRecipeBuilder.start()
+    .input(<ore:ingotIron>)
+    .output(<gregtech:meta_item_1:10184>)
+    .duration(1500)
+    .fuelAmount(4)
+    .buildAndRegister();
+
+PBFRecipeBuilder.start()
+    .input(<ore:ingotWroughtIron>)
+    .output(<gregtech:meta_item_1:10184>)
+    .duration(600)
+    .fuelAmount(4)
+    .buildAndRegister();
+
 recipes.addShapeless(<ore:gearSmallIron>.firstItem, [<ore:gregHardHammers>, <ore:plateIron>]);
 recipes.addShapeless(<ore:gearSmallWroughtIron>.firstItem, [<ore:gregHardHammers>, <ore:plateWroughtIron>]);
+
+recipes.addShaped(<ore:toolHeadBuzzSawIron>.firstItem, [
+    [null, <ore:plateIron>, <ore:gregFiles>],
+    [<ore:plateIron>, null, <ore:plateIron>],
+    [<ore:gregHardHammers>, <ore:plateIron>, null]
+]);
+
+recipes.addShaped(<ore:toolHeadBuzzSawWroughtIron>.firstItem, [
+    [null, <ore:plateWroughtIron>, <ore:gregFiles>],
+    [<ore:plateWroughtIron>, null, <ore:plateWroughtIron>],
+    [<ore:gregHardHammers>, <ore:plateWroughtIron>, null]
+]);
 
 recipes.addShapeless(<ore:cableGtSingleRedAlloy>.firstItem, [<ore:wireGtSingleRedAlloy>, <ore:plateRubber>]);
 recipes.addShapeless(<ore:cableGtSingleTin>.firstItem, [<ore:wireGtSingleTin>, <ore:plateRubber>]);
 recipes.addShapeless(<ore:lensGlass>.firstItem, [<gregtech:meta_item_2:32454>, <ore:gregSaws>]);
+
+recipes.addShaped(<gregtech:machine:825>, [
+   [null, <item:minecraft:crafting_table>, null],
+   [<ore:plateBronze>, <ore:chestWood>, <ore:plateBronze>],
+   [<ore:gregWrenches>, <ore:plateBronze>, <ore:gregHardHammers>] 
+]);
 
 forming_press.findRecipe(16, [<ore:plateCupronickel>.firstItem, <gregtech:meta_item_1:32304>], null).remove();
 macerator.findRecipe(2, [<minecraft:reeds>], null).remove();

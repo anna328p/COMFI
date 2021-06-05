@@ -1,0 +1,10 @@
+{
+	title: "Living Off the Land - Growing Crops",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:carrot"
+	},
+	{
+		item: "minecraft:potato"
+	}]
+}

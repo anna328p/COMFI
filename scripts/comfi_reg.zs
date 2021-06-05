@@ -8,6 +8,19 @@ import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 import crafttweaker.game.IGame;
 
+# filters
+var filterCarbonPrimitive = VanillaFactory.createItem("filter_carbon_primitive");
+filterCarbonPrimitive.maxStackSize = 64;
+filterCarbonPrimitive.register();
+
+var filterSulfurPrimitive = VanillaFactory.createItem("filter_sulfur_primitive");
+filterSulfurPrimitive.maxStackSize = 64;
+filterSulfurPrimitive.register();
+
+var filterDustPrimitive = VanillaFactory.createItem("filter_dust_primitive");
+filterDustPrimitive.maxStackSize = 64;
+filterDustPrimitive.register();
+
 # clay soldier recipes
 var livelyBlend = VanillaFactory.createItem("lively_blend");
 livelyBlend.maxStackSize = 64;

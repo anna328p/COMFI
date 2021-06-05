@@ -1,0 +1,40 @@
+{
+	title: "Animal Husbandry",
+	icon: "minecraft:wheat",
+	x: 2.0d,
+	y: 2.0d,
+	description: "The circle of life",
+	text: [
+		"§7There's more to taking care of Animania animals than there is with vanilla animals, but it's quite easy once you understand the basics. Here's some helpful information to refer back to:",
+		"",
+		"- Animals will only yield full produce if they're well nourished, so make sure they have access to food and water at all times.",
+		"",
+		"- Different animals have different diets, as well as favorite foods; refer to the Animania wiki and in-game guide for more information.",
+		"",
+		"- If you pair a male and female mammal together and keep them well nourished, they'll breed. Cows, sheep and goats can be milked after having children.",
+		"",
+		"- Certain breeds are better for certain kinds of produce; refer to the Animania wiki and in-game guide for more information.",
+		"",
+		"- Knives can be used to cut prime meat into finer cuts, improving overall yield from meat animals.",
+		"",
+		"- Animania milk can be turned into vanilla milk for crafting purposes."
+	],
+	dependencies: [
+		"7c979de0"
+	],
+	min_width: 400,
+	tasks: [{
+		uid: "a359472a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "064e4fe7",
+		type: "item",
+		item: "animania:animania_manual"
+	},
+	{
+		uid: "515f33c5",
+		type: "item",
+		item: "minecraft:lead"
+	}]
+}

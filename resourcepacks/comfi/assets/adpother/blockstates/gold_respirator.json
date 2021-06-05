@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "adpother:respirator"
+	},
+	"variants": {
+		"normal": [
+			{
+				
+			}
+		],
+		"inventory": [
+			{
+				"textures": {
+					"1": "comfi:blocks/respirator_refined_3",
+					"9": "comfi:blocks/respirator_refined",
+					"10": "comfi:blocks/respirator_refined_2",
+					"11": "comfi:blocks/respirator_refined_4"
+				}
+			}
+		]
+	}
+}

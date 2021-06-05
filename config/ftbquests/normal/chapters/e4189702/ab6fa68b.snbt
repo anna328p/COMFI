@@ -1,6 +1,6 @@
 {
-	x: 0.0d,
-	y: 6.0d,
+	x: 2.0d,
+	y: 0.0d,
 	description: "Keeping everything in order",
 	text: [
 		"§7The clipboard is a convenient way to keep track of tasks in a to-do list format. ",

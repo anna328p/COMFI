@@ -1,0 +1,31 @@
+{
+	title: "Butchery Knives",
+	x: 8.0d,
+	y: 8.0d,
+	description: "The finest cuts",
+	text: [
+		"§7Butchery knives innately yield more drops from killed mobs, making them useful for getting the most out of your meat animals."
+	],
+	dependencies: [
+		"52c1a009"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bdd5a849",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21
+				}],
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 18s
+		}],
+		ignore_nbt: 1b
+	}]
+}

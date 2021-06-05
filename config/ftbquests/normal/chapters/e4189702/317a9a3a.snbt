@@ -1,0 +1,24 @@
+{
+	title: "Locomotives",
+	x: -2.0d,
+	y: 8.0d,
+	description: "They're two, they're four, they're six, they're eight...",
+	text: [
+		"§7Steam locomotives can run on their own steam if provided with water and combustible fuel. They're well suited to pulling large chains of carts, and can be given custom colors and whistle pitches."
+	],
+	dependencies: [
+		"6c18bfbc"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "a9de1458",
+		type: "item",
+		items: [{
+			id: "railcraft:locomotive_steam_solid",
+			tag: {
+				model: "railcraft:default"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

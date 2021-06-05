@@ -17,5 +17,11 @@
 		items: [{
 			item: "harvestcraft:beeswaxitem"
 		}]
+	}],
+	rewards: [{
+		uid: "a7a58bd7",
+		type: "item",
+		item: "harvestcraft:wovencottonitem",
+		random_bonus: 1
 	}]
 }

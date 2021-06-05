@@ -1,0 +1,22 @@
+{
+	title: "Manual Metalworking",
+	icon: {
+		id: "gregtech:meta_tool",
+		tag: {
+			GT.ToolStats: {
+				Material: "darmstadtium"
+			}
+		},
+		Damage: 6s
+	},
+	disable_toast: true,
+	x: 2.0d,
+	y: 6.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"929b9b57"
+	]
+}

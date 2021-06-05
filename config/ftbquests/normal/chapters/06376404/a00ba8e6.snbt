@@ -1,0 +1,57 @@
+{
+	title: "Clay Soldiers",
+	icon: {
+		id: "claysoldiers:doll_soldier",
+		tag: {
+			dollSoldier: {
+				team: "77bfa9d5-2e49-4ad3-b6e6-ded0ee1aad2d"
+			}
+		}
+	},
+	x: 6.0d,
+	y: 2.0d,
+	description: "Blood sports without the blood!",
+	text: [
+		"§7The ultimate form of recreation, clay soldiers are miniature warriors that can be separated into teams and equipped with a variety of items to fight each other with."
+	],
+	dependencies: [
+		"3aa10ce0",
+		"b033c416"
+	],
+	tasks: [{
+		uid: "88ee81a9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lively_blend"
+		}]
+	},
+	{
+		uid: "6790baa0",
+		type: "item",
+		items: [{
+			id: "claysoldiers:doll_soldier",
+			tag: {
+				dollSoldier: {
+					team: "ca383b5d-ddaf-4523-9001-5a5685ef5fba"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6577b3a4",
+		type: "item",
+		item: {
+			id: "claysoldiers:disruptor",
+			tag: {
+				disruptor: {
+					type: 2b
+				}
+			}
+		}
+	},
+	{
+		uid: "76c12f64",
+		type: "item",
+		item: "claysoldiers:lexicon"
+	}]
+}

@@ -3,16 +3,24 @@
 	x: 2.0d,
 	y: -2.0d,
 	text: [
-		"§7Fluid funnels may not be as practical as fluiducts in most cases, but they are useful in that they can fill containers such as buckets or tanks in an attached inventory. This allows you to automate recipes such as firebricks and wooden ties."
+		"§7Fluid funnels may not be as practical as fluiducts for transportation, but they are useful in that they can fill containers such as buckets or tanks in an attached inventory. This allows you to automate recipes such as firebricks and wooden ties."
 	],
 	dependencies: [
 		"589ae1f6"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "2c6eb671",
 		type: "item",
 		items: [{
 			item: "fluidfunnel:funnel"
 		}]
+	}],
+	rewards: [{
+		uid: "5dd2b174",
+		type: "item",
+		item: "gregtech:fluid_pipe 1 1095",
+		count: 2,
+		random_bonus: 2
 	}]
 }

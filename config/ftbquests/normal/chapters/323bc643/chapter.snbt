@@ -1,7 +1,0 @@
-{
-	title: "Animals, Crops & Cooking",
-	icon: "harvestcraft:artichokeseeditem",
-	always_invisible: false,
-	group: 272468099,
-	default_quest_shape: ""
-}

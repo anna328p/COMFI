@@ -13,6 +13,7 @@
 	dependencies: [
 		"b7cd6cf0"
 	],
+	size: 1.2d,
 	min_width: 400,
 	tasks: [{
 		uid: "50c0cab5",
@@ -34,14 +35,6 @@
 		items: [{
 			item: "thermaldynamics:duct_32 1 1"
 		}]
-	},
-	{
-		uid: "3b266ebd",
-		type: "item",
-		items: [{
-			item: "thermalfoundation:wrench"
-		}],
-		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "7eca0182",
@@ -50,10 +43,8 @@
 		count: 2
 	},
 	{
-		uid: "6554fb89",
+		uid: "1bbba99a",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32000",
-		count: 3,
-		random_bonus: 2
+		item: "thermalfoundation:wrench"
 	}]
 }

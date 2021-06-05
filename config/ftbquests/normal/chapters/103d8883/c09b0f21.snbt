@@ -1,0 +1,37 @@
+{
+	title: "Cotton Farming",
+	icon: "harvestcraft:wovencottonitem",
+	x: 8.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	text: [
+		"§7Cotton seeds can be foraged from grass and grown as a source of string and woven cotten, a valuable crafting material."
+	],
+	dependencies: [
+		"97da5b93"
+	],
+	tasks: [{
+		uid: "cad29440",
+		type: "item",
+		title: "Forage cotton seeds",
+		items: [{
+			item: "harvestcraft:cottonseeditem"
+		}]
+	},
+	{
+		uid: "88a42205",
+		type: "item",
+		title: "Turn cotton into string",
+		items: [{
+			item: "minecraft:string"
+		}]
+	},
+	{
+		uid: "fe71f68e",
+		type: "item",
+		title: "Weave string into cloth",
+		items: [{
+			item: "harvestcraft:wovencottonitem"
+		}]
+	}]
+}

@@ -2,16 +2,94 @@
 	x: 1.0d,
 	y: -1.0d,
 	text: [
-		"§7The steam oven is a multiblock equivalent of the steam oven, useful for bulk processing. If you're willing to put the necessary resources into it, you'll have one machine doing 8 recipes in parallel."
+		"§7The steam oven is a multiblock equivalent of the steam furnace, useful for bulk processing. If you're willing to put the necessary resources into it, you'll have one machine doing 8 recipes in parallel."
 	],
 	dependencies: [
 		"a27a80f8"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "1503832f",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 4197"
 		}]
+	}],
+	rewards: [{
+		uid: "ac5a7488",
+		type: "item",
+		title: "Use me on a filter to whitelist common smeltable ore!",
+		item: {
+			id: "thermalfoundation:diagram_redprint",
+			tag: {
+				Type: "tile.thermaldynamics.duct",
+				RepairCost: 0,
+				DisplayType: "item.thermaldynamics.filter.0.name",
+				display: {
+					Name: "\"Smeltables\" Filter I"
+				},
+				Levels: {
+					Level2: 1,
+					Level3: 0,
+					Level0: 32,
+					Level1: 0
+				},
+				Flags: 22b,
+				Inventory: [{
+					Slot: 0,
+					id: "gregtech:ore_iron_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 1,
+					id: "gregtech:ore_chalcopyrite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 2,
+					id: "gregtech:ore_tin_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 3,
+					id: "gregtech:ore_copper_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 4,
+					id: "gregtech:ore_magnetite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 5,
+					id: "gregtech:ore_cassiterite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 6,
+					id: "gregtech:ore_pyrite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 7,
+					id: "gregtech:ore_tetrahedrite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 8,
+					id: "gregtech:ore_malachite_0",
+					Count: 1b,
+					Damage: 0s
+				}]
+			}
+		}
 	}]
 }

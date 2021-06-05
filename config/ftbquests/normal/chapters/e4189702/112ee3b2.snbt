@@ -1,0 +1,31 @@
+{
+	title: "Modular Carts",
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"§7The cart assembler can build carts with specialized equipment, useful for automating certain tasks or advanced transport.",
+		"",
+		"Modular carts require fuel and time to build, and the cart assembler can be upgraded with certain modules to make this process faster and/or more efficient, among other things.",
+		"",
+		"It's recommended to build burner engines before modular carts, as they're much easier to work with if they have their own propulsion."
+	],
+	dependencies: [
+		"77643da9",
+		"f40f611d"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "09ed3cf2",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockcartassembler"
+		}]
+	}],
+	rewards: [{
+		uid: "4389ff3f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10237",
+		count: 6,
+		random_bonus: 3
+	}]
+}

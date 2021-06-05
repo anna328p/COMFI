@@ -7,11 +7,71 @@
 	dependencies: [
 		"8dcfbf09"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "5df11ca0",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 4178"
 		}]
+	}],
+	rewards: [{
+		uid: "e65dfb10",
+		type: "item",
+		title: "Use me on a filter to whitelist more common smeltable ore!",
+		item: {
+			id: "thermalfoundation:diagram_redprint",
+			tag: {
+				Type: "tile.thermaldynamics.duct",
+				RepairCost: 0,
+				DisplayType: "item.thermaldynamics.filter.0.name",
+				display: {
+					Name: "\"Smeltables\" Filter II"
+				},
+				Levels: {
+					Level2: 1,
+					Level3: 0,
+					Level0: 32,
+					Level1: 0
+				},
+				Flags: 22b,
+				Inventory: [{
+					Slot: 0,
+					id: "gregtech:ore_bornite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 1,
+					id: "gregtech:ore_chalcocite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 2,
+					id: "gregtech:ore_yellow_limonite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 3,
+					id: "gregtech:ore_brown_limonite_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 4,
+					id: "gregtech:ore_banded_iron_0",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 5,
+					id: "gregtech:ore_cassiterite_sand_0",
+					Count: 1b,
+					Damage: 0s
+				}]
+			}
+		}
 	}]
 }

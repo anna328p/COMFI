@@ -1,0 +1,18 @@
+{
+	title: "Automobilism",
+	x: -4.0d,
+	y: 8.0d,
+	text: [
+		"§7Primitive burner engines can be installed in a modular cart, or used in steam locomotives."
+	],
+	dependencies: [
+		"77643da9"
+	],
+	tasks: [{
+		uid: "06cca508",
+		type: "item",
+		items: [{
+			item: "stevescarts:cartmodule 1 44"
+		}]
+	}]
+}

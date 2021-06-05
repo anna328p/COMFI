@@ -16,5 +16,12 @@
 		items: [{
 			item: "thermaldynamics:relay"
 		}]
+	}],
+	rewards: [{
+		uid: "4b14c7eb",
+		type: "item",
+		item: "gregtech:ore_redstone_0",
+		count: 4,
+		random_bonus: 2
 	}]
 }

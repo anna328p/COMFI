@@ -1,0 +1,27 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "adpother:filter",
+		"textures": {
+			"0": "gregtech:blocks/casings/solid/machine_casing_stable_titanium",
+			"particle": "#0"
+		}
+	},
+	"variants": {
+		"saturation": {
+			"normal": {
+				
+			},
+			"high": {
+				"textures": {
+					"2": "blocks/glass_gray"
+				}
+			}
+		},
+		"inventory": [
+			{
+				
+			}
+		]
+	}
+}

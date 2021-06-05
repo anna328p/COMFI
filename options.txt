@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["unity-comfi.zip","zedtech-gtce-0.2.7.zip", "comfi"]
+resourcePacks:["unity-comfi.zip","zedtech-gtce-0.4.1.zip", "comfi"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -104,7 +104,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
@@ -128,7 +128,7 @@ key_key.toastcontrol.clear:0
 key_key.openglasses.interact:0
 key_key.openglasses.stable_interact:0:ALT
 key_key.openglasses.nightvision:49
-key_key.openglasses.thermalvision:48
+key_key.openglasses.thermalvision:0
 key_key.openglasses.config:0:SHIFT
 key_key.xtones.scroll:42
 key_key.dismount:42
@@ -211,7 +211,7 @@ key_jecalculation.key.gui_math:0
 key_key.otghud.desc:24
 key_key.travelersbackpack.inventory:48
 key_key.travelersbackpack.toggle_tank:49
-key_key.travelersbackpack.cycle_tool:0
+key_key.travelersbackpack.cycle_tool:47
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_slime:0

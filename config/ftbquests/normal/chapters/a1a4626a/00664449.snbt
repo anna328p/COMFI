@@ -4,7 +4,7 @@
 	shape: "hexagon",
 	description: "Keeping all the dangly bits in",
 	text: [
-		""
+		"§7As is the case with steam machines, single-block electric machines require a machine hull each. It's worth your time to build them in bulk."
 	],
 	dependencies: [
 		"5cd3fcce",
@@ -18,5 +18,12 @@
 		items: [{
 			item: "gregtech:machine 1 501"
 		}]
+	}],
+	rewards: [{
+		uid: "63582cd6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2065",
+		count: 8,
+		random_bonus: 4
 	}]
 }

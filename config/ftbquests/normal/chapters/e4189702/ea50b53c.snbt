@@ -1,0 +1,22 @@
+{
+	title: "Automatic Farming",
+	x: -4.0d,
+	y: 6.0d,
+	text: [
+		"§7Carts equipped with a harvester will harvest mature crops along the track they're travelling on. The harvester will need to be repaired periodically."
+	],
+	dependencies: [
+		"112ee3b2"
+	],
+	tasks: [{
+		uid: "35e041e0",
+		type: "item",
+		items: [{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Damage: 14s
+		}]
+	}]
+}

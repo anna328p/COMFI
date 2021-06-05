@@ -3,12 +3,15 @@
 	icon: "gregtech:meta_item_1 1 10237",
 	x: 2.0d,
 	y: 2.0d,
+	shape: "pentagon",
 	text: [
 		"§aThere shouldn't be much of a problem finding redstone on 0V3R. It's got plenty of applications at our technological level back home as you know, but it should be especially useful for you right now since you're currently working with more... primitive technology."
 	],
 	dependencies: [
+		"ec16279c",
 		"32a191fa"
 	],
+	dependency_requirement: "one_completed",
 	min_width: 400,
 	tasks: [{
 		uid: "f6dfc18d",
@@ -25,5 +28,12 @@
 		items: [{
 			item: "minecraft:redstone"
 		}]
+	}],
+	rewards: [{
+		uid: "c6467998",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10018",
+		count: 8,
+		random_bonus: 4
 	}]
 }

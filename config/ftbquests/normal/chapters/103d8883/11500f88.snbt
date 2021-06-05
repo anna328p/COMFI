@@ -1,0 +1,56 @@
+{
+	title: "Fishing",
+	icon: {
+		ForgeCaps: {
+			"ocdevices:item_analyze": {}
+		},
+		id: "minecraft:fishing_rod"
+	},
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		"§7A reliable source of protein if you're having trouble hunting. Maybe you'll find other things in the water as well?"
+	],
+	dependencies: [
+		"c09b0f21"
+	],
+	tasks: [{
+		uid: "53740849",
+		type: "item",
+		title: "Make a fishing rod",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a8e30ca",
+		type: "item",
+		title: "Catch a fish",
+		icon: "minecraft:fish",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfishraw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllfishraw"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "87adaf71",
+		type: "item",
+		item: "harvestcraft:wovencottonitem",
+		random_bonus: 1
+	}]
+}

@@ -15,5 +15,12 @@
 		items: [{
 			item: "minecraft:piston"
 		}]
+	}],
+	rewards: [{
+		uid: "733501c1",
+		type: "item",
+		item: "gregtech:meta_item_2 1 17197",
+		count: 2,
+		random_bonus: 2
 	}]
 }

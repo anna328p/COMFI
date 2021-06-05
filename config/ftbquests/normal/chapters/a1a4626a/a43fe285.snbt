@@ -1,6 +1,6 @@
 {
 	icon: "gregtech:metal_casing 1 1",
-	x: 0.0d,
+	x: -2.0d,
 	y: 10.0d,
 	shape: "hexagon",
 	text: [
@@ -11,6 +11,7 @@
 		"17142d99",
 		"a34250b4"
 	],
+	size: 1.2d,
 	tasks: [{
 		uid: "18b77f14",
 		type: "item",
@@ -25,16 +26,5 @@
 			item: "gregtech:metal_casing 1 1"
 		}],
 		count: 32L
-	}],
-	rewards: [{
-		uid: "f47c1a66",
-		type: "item",
-		item: "gregtech:meta_item_1 1 32001"
-	},
-	{
-		uid: "8fc42097",
-		type: "item",
-		item: "gregtech:meta_item_1 1 32000",
-		random_bonus: 2
 	}]
 }

@@ -24,16 +24,16 @@ recipes.remove(<item:thermaldynamics:relay>);
 recipes.remove(<item:thermaldynamics:duct_48>);
 
 <item:thermaldynamics:servo:2>.displayName = "§rServo";
-<item:thermaldynamics:servo:3>.displayName = "§rAdvanced Servo";
-<item:thermaldynamics:servo:4>.displayName = "§rElite Servo";
+<item:thermaldynamics:servo:3>.displayName = "§rRefined Servo";
+<item:thermaldynamics:servo:4>.displayName = "§rAdvanced Servo";
 
 <item:thermaldynamics:filter:2>.displayName = "§rFilter";
-<item:thermaldynamics:filter:3>.displayName = "§rAdvanced Filter";
-<item:thermaldynamics:filter:4>.displayName = "§rElite Filter";
+<item:thermaldynamics:filter:3>.displayName = "§rRefined Filter";
+<item:thermaldynamics:filter:4>.displayName = "§rAdvanced Filter";
 
 <item:thermaldynamics:retriever:2>.displayName = "§rRetriever";
-<item:thermaldynamics:retriever:3>.displayName = "§rAdvanced Retriever";
-<item:thermaldynamics:retriever:4>.displayName = "§rElite Retriever";
+<item:thermaldynamics:retriever:3>.displayName = "§rRefined Retriever";
+<item:thermaldynamics:retriever:4>.displayName = "§rAdvanced Retriever";
 
 recipes.addShapeless(<thermaldynamics:duct_16>, [<item:thermaldynamics:duct_16:1>, <ore:paneGlass>]);
 

@@ -57,3 +57,7 @@ compressor.recipeBuilder()
 furnace.addRecipe(<item:contenttweaker:rotisserie_cheetor>, <item:contenttweaker:cheetor>, 15);
 recipes.addShapeless(<item:contenttweaker:cheetor_cube>, [<item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>, <item:contenttweaker:cheetor>]);
 recipes.addShapeless(<item:contenttweaker:cheetor> * 4, [<item:contenttweaker:cheetor_cube>]);
+
+recipes.addShapeless(<contenttweaker:filter_carbon_primitive> * 2, [<harvestcraft:wovencottonitem>, <gregtech:meta_item_2:32570>, <ore:gregSoftHammers>]);
+recipes.addShapeless(<contenttweaker:filter_sulfur_primitive> * 2, [<harvestcraft:wovencottonitem>, <ore:wool>, <ore:gregSoftHammers>]);
+recipes.addShapeless(<contenttweaker:filter_dust_primitive> * 2, [<harvestcraft:wovencottonitem>, <ore:paper>, <ore:gregSoftHammers>]);

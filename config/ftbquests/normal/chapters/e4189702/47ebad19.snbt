@@ -1,8 +1,8 @@
 {
 	title: "Metal Chests & Crates",
 	icon: "gregtech:machine 1 2208",
-	x: -2.0d,
-	y: 8.0d,
+	x: 0.0d,
+	y: 2.0d,
 	text: [
 		""
 	],

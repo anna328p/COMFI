@@ -63,10 +63,17 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "4bc270f9",
-		type: "item",
-		item: "gregtech:meta_item_1 1 32000",
-		count: 4,
-		random_bonus: 2
+		uid: "c40e9c38",
+		type: "choice",
+		icon: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			},
+			Damage: 8s
+		},
+		table: 1
 	}]
 }

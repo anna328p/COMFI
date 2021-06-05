@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"1ed22455"
+	],
+	tasks: [{
+		uid: "c665e675",
+		type: "item",
+		items: [{
+			item: "storagedrawers:framingtable"
+		}]
+	}]
+}

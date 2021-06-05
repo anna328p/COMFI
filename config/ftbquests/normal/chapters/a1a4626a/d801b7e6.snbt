@@ -3,11 +3,10 @@
 	icon: "gregtech:meta_item_1 1 10152",
 	x: 6.0d,
 	y: 4.0d,
-	description: "It smells unbearable",
 	text: [
 		"§aI can only imagine the smell over there... that's the price of progress, I guess.",
 		"",
-		"§7Cave roots can be used as an alternative, albiet non-renewable source of rubber pulp."
+		"§7Cave roots can be used as an alternative source of sticky resin."
 	],
 	dependencies: [
 		"0ea181f1",
@@ -37,20 +36,12 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 10152"
 		}]
-	},
-	{
-		uid: "4520a833",
-		type: "item",
-		title: "Mine sulfur in the nether",
-		items: [{
-			item: "gregtech:meta_item_1 1 2065"
-		}]
 	}],
 	rewards: [{
-		uid: "2f163fc6",
+		uid: "86bd61d7",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32000",
-		count: 5,
+		item: "quark:root",
+		count: 3,
 		random_bonus: 2
 	}]
 }

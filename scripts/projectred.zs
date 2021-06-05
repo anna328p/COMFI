@@ -43,7 +43,7 @@ val dyeArray = [
 ] as IOreDictEntry[];
 
 
-for i in 0 to 15 {
+for i in 0 to 16 {
     recipes.remove(illumarArray[i]);
 
     mixer.recipeBuilder()

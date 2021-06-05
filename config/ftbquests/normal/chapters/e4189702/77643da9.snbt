@@ -1,0 +1,21 @@
+{
+	title: "Steel",
+	icon: "gregtech:meta_item_1 1 10184",
+	disable_toast: true,
+	x: -2.0d,
+	y: 6.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"5cd3fcce"
+	],
+	tasks: [{
+		uid: "e656422e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10184"
+		}]
+	}]
+}

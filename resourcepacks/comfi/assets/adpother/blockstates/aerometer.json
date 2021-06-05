@@ -1,0 +1,60 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "adpother:aerometer"
+	},
+	"variants": {
+		"normal": [
+			{
+				"1": "comfi:blocks/respirator_refined_2",
+				"2": "comfi:blocks/respirator_advanced",
+				"3": "blocks/hopper_inside"
+			}
+		],
+		"inventory": [
+			{
+				"1": "comfi:blocks/respirator_refined_2",
+				"2": "comfi:blocks/respirator_advanced",
+				"3": "blocks/hopper_inside"
+			}
+		],
+		"broken": [
+			{
+				"textures": {
+					"0": "forgeendertech:blocks/glass_broken",
+					"1": "comfi:blocks/respirator_refined_2",
+					"2": "comfi:blocks/respirator_advanced",
+					"3": "blocks/hopper_inside",
+					"particle": "comfi:blocks/respirator_refined_2"
+				}
+			}
+		],
+		"green": [
+			{
+				"textures": {
+					"1": "comfi:blocks/respirator_refined_2",
+					"2": "comfi:blocks/respirator_advanced",
+					"3": "blocks/wool_colored_green"
+				}
+			}
+		],
+		"yellow": [
+			{
+				"textures": {
+					"1": "comfi:blocks/respirator_refined_2",
+					"2": "comfi:blocks/respirator_advanced",
+					"3": "blocks/wool_colored_yellow"
+				}
+			}
+		],
+		"red": [
+			{
+				"textures": {
+					"1": "comfi:blocks/respirator_refined_2",
+					"2": "comfi:blocks/respirator_advanced",
+					"3": "blocks/wool_colored_red"
+				}
+			}
+		]
+	}
+}

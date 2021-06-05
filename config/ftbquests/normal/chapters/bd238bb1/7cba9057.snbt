@@ -1,0 +1,14 @@
+{
+	title: "Cotton Farming",
+	icon: "harvestcraft:wovencottonitem",
+	disable_toast: true,
+	x: 0.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"c09b0f21"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Hardened Leather",
+	icon: "harvestcraft:hardenedleatheritem",
+	disable_toast: true,
+	x: 8.0d,
+	y: -2.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b381b9bc"
+	]
+}

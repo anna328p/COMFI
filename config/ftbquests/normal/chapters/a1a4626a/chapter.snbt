@@ -1,6 +1,6 @@
 {
 	title: "Steam Machinery",
-	icon: "gregtech:machine 1 1",
+	icon: "gregtech:machine 1 17",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

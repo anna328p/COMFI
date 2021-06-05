@@ -1,0 +1,15 @@
+{
+	title: "Redstone",
+	icon: "gregtech:meta_item_1 1 10237",
+	disable_toast: true,
+	x: 12.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b7cd6cf0"
+	]
+}

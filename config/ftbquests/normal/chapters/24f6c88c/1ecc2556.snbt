@@ -31,11 +31,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "81389208",
-		type: "item",
-		item: "gregtech:meta_item_1 1 32000",
-		random_bonus: 2
 	}]
 }

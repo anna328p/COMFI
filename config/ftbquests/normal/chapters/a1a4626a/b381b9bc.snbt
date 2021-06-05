@@ -2,6 +2,7 @@
 	icon: "harvestcraft:hardenedleatheritem",
 	x: 4.0d,
 	y: 8.0d,
+	shape: "pentagon",
 	text: [
 		"§7Hardened leather can be used to make iron-equivalent armor, as well as more sophisticated backpacks."
 	],
@@ -15,5 +16,11 @@
 		items: [{
 			item: "harvestcraft:hardenedleatheritem"
 		}]
+	}],
+	rewards: [{
+		uid: "4947e820",
+		type: "item",
+		item: "harvestcraft:wovencottonitem",
+		random_bonus: 1
 	}]
 }

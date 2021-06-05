@@ -15,5 +15,11 @@
 		items: [{
 			item: "thermaldynamics:duct_48"
 		}]
+	}],
+	rewards: [{
+		uid: "acec76ff",
+		type: "choice",
+		icon: "thermalfoundation:material 1 512",
+		table: 0
 	}]
 }

@@ -15,5 +15,12 @@
 		items: [{
 			item: "extrautils2:crafter"
 		}]
+	}],
+	rewards: [{
+		uid: "e7730355",
+		type: "item",
+		item: "gregtech:meta_item_2 1 17197",
+		count: 2,
+		random_bonus: 2
 	}]
 }

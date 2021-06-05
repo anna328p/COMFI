@@ -7,8 +7,8 @@
 		},
 		Damage: 1s
 	},
-	x: 0.0d,
-	y: 8.0d,
+	x: 2.0d,
+	y: 2.0d,
 	text: [
 		"§7Storage drawers can store single types of items in bulk. There are several variants that can support up to 4 drawers in one block, with the tradeoff of less space per drawer.",
 		"",
@@ -62,5 +62,11 @@
 		{
 			item: "storagedrawers:customdrawers 1 4"
 		}]
+	}],
+	rewards: [{
+		uid: "1e426045",
+		type: "item",
+		item: "storagedrawers:upgrade_template",
+		count: 2
 	}]
 }

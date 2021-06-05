@@ -11,7 +11,6 @@ recipes.remove(<railcraft:tool_crowbar_steel>);
 RollingMachine.remove(<railcraft:rail:0>);
 RollingMachine.remove(<railcraft:rail:1>);
 recipes.remove(<minecraft:golden_rail>);
-recipes.remove(<railcraft:cart_tank>);
 recipes.remove(kit_booster);
 recipes.remove(kit_control);
 recipes.remove(kit_locking);
@@ -20,6 +19,7 @@ recipes.remove(<railcraft:manipulator>);
 recipes.remove(<railcraft:manipulator:1>);
 recipes.remove(<railcraft:manipulator:4>);
 recipes.remove(<railcraft:manipulator:5>);
+recipes.removeByRecipeName("railcraft:locomotive_steam_solid#0$1");
 
 <railcraft:tool_crowbar_iron>.displayName = "Trackman's Crowbar";
 <railcraft:tool_crowbar_steel>.displayName = "Hardened Trackman's Crowbar";
@@ -43,8 +43,6 @@ recipes.addShaped(<railcraft:rail:0> * 6, [
 ]);
 
 recipes.addShapeless(<railcraft:rail:1>, [<ore:stickGold>, <ore:dustRedstone>, <ore:gregHardHammers>]);
-
-recipes.addShapeless(<railcraft:cart_tank>, [<minecraft:minecart>, <gregtech:machine:812>]);
 
 recipes.addShapeless(kit_booster * 8, [<railcraft:tie>, <railcraft:rail:1>, <railcraft:rail:1>, <ore:dustRedstone>, <ore:dustRedstone>]);
 recipes.addShapeless(kit_control * 8, [<railcraft:tie>, <railcraft:rail:1>, <ore:gearSmallIron>, <ore:dustRedstone>, <ore:dustRedstone>]);
@@ -73,4 +71,10 @@ recipes.addShaped(<railcraft:manipulator:5>, [
     [<ore:plateBronze>, <fluidfunnel:funnel>, <ore:plateBronze>],
     [<ore:plateBronze>, <ore:gregWrenches>, <ore:plateBronze>],
     [<ore:plateBronze>, <ore:dustRedstone>, <ore:plateBronze>]
+]);
+
+recipes.addShaped(<railcraft:locomotive_steam_solid>.withTag({model: "railcraft:default"}), [
+    [<ore:gtMetalCasingSteel>, <gregtech:machine:2>, <ore:gtMetalCasingSteel>],
+    [<ore:gtMetalCasingSteel>, <stevescarts:cartmodule:44>, <minecraft:iron_bars>],
+    [<stevescarts:modulecomponents:1>, <ore:gregWrenches>, <stevescarts:modulecomponents:1>]
 ]);

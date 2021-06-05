@@ -9,7 +9,7 @@
 	dependencies: [
 		"b011456b"
 	],
-	size: 1.25d,
+	size: 1.2d,
 	min_width: 350,
 	tasks: [{
 		uid: "027945d5",

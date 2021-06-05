@@ -1,0 +1,10 @@
+{
+	title: "Duct Attachment",
+	loot_size: 1,
+	rewards: [{
+		item: "thermaldynamics:servo 1 2"
+	},
+	{
+		item: "thermaldynamics:filter 1 2"
+	}]
+}

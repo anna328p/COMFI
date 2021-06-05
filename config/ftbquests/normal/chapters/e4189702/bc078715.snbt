@@ -4,7 +4,7 @@
 	x: -2.0d,
 	y: 0.0d,
 	text: [
-		"§7Fluid handlers come with filters."
+		"§7Fluid handlers come with built-in filters and can be configured to emit redstone signals under certain conditions, making them useful for building \"loading stations\" for your carts."
 	],
 	dependencies: [
 		"f40f611d"

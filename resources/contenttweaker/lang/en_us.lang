@@ -1,4 +1,8 @@
 tile.contenttweaker.cheetor_cube.name=cheetor cube
+
+item.contenttweaker.filter_carbon_primitive.name=Primitive Carbon Filter
+item.contenttweaker.filter_sulfur_primitive.name=Primitive Sulfur Filter
+item.contenttweaker.filter_dust_primitive.name=Primitive Dust Filter
 item.contenttweaker.lively_blend.name=Lively Blend
 item.contenttweaker.form_clay_soldier.name=Clay Soldier Wooden Form
 item.contenttweaker.mold_clay_soldier.name=Mold (Clay Soldier)

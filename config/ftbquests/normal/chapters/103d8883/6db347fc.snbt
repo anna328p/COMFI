@@ -1,0 +1,42 @@
+{
+	title: "Fancier Feasts",
+	icon: "harvestcraft:delightedmealitem",
+	x: 2.0d,
+	y: 4.0d,
+	description: "Mm.. food",
+	text: [
+		"§7Many foods can be enhanced with certain ingredients, often leading to higher nutritional value than the sum of the ingredients.",
+		"",
+		"This quest just provides an example of the kind of recipe chains available. Poke around and see what else you can make; variety is the spice of life, after all!"
+	],
+	dependencies: [
+		"c1bd9f90",
+		"1c9f5a9a",
+		"361eb6b4"
+	],
+	min_width: 250,
+	tasks: [{
+		uid: "70436630",
+		type: "item",
+		title: "Make toast with bread and butter",
+		items: [{
+			item: "harvestcraft:toastitem"
+		}]
+	},
+	{
+		uid: "cd20ed77",
+		type: "item",
+		title: "Cook a hamburger",
+		items: [{
+			item: "harvestcraft:hamburgeritem"
+		}]
+	},
+	{
+		uid: "6657f482",
+		type: "item",
+		title: "Add some cheese",
+		items: [{
+			item: "harvestcraft:cheeseburgeritem"
+		}]
+	}]
+}

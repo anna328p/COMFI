@@ -10,12 +10,5 @@
 	],
 	dependencies: [
 		"542e802b"
-	],
-	tasks: [{
-		uid: "86af4f30",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 526"
-		}]
-	}]
+	]
 }

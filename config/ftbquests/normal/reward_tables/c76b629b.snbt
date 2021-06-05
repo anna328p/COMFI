@@ -1,0 +1,13 @@
+{
+	title: "Living Off the Land - Cookware",
+	loot_size: 1,
+	rewards: [{
+		item: "harvestcraft:skilletitem"
+	},
+	{
+		item: "harvestcraft:potitem"
+	},
+	{
+		item: "harvestcraft:saucepanitem"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "Waxmaking",
+	icon: "harvestcraft:beeswaxitem",
+	disable_toast: true,
+	x: 0.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"948e7d4a"
+	]
+}

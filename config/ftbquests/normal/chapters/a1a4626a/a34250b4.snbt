@@ -1,6 +1,6 @@
 {
 	title: "Concrete",
-	x: -2.0d,
+	x: -3.0d,
 	y: 6.0d,
 	text: [
 		"§7Concrete is required to build firebricks. The crafting recipe can be automated using funnels, which can fill buckets in a connected chest."
@@ -18,7 +18,6 @@
 				Amount: 1000
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}]
 }

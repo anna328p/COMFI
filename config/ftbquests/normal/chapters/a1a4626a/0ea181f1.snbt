@@ -3,7 +3,9 @@
 	x: 4.0d,
 	y: 4.0d,
 	text: [
-		"§7The forge hammer can be used to more efficiently press ingots into plates, hammer ore into dust, automate wrought iron production, and more."
+		"§7The forge hammer can be used to more efficiently press ingots into plates, hammer ore into dust, automate wrought iron production, and more.",
+		"",
+		"Anvils can be used to repair GregTech tools using their respective materials."
 	],
 	dependencies: [
 		"bc9ab2bb",
@@ -30,5 +32,11 @@
 		item: "gregtech:fluid_pipe 1 1095",
 		count: 2,
 		random_bonus: 2
+	},
+	{
+		uid: "80d4cd8c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10234",
+		count: 4
 	}]
 }

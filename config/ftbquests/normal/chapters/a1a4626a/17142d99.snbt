@@ -1,7 +1,7 @@
 {
 	title: "Firebricks",
 	icon: "gregtech:meta_item_2 1 32015",
-	x: 0.0d,
+	x: -1.0d,
 	y: 6.0d,
 	description: "It just works.",
 	text: [

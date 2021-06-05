@@ -1,0 +1,61 @@
+{
+	title: "Pollution Management",
+	icon: "adpother:iron_filter",
+	x: 12.0d,
+	y: 0.0d,
+	text: [
+		"§7As you may have noticed, devices that burn fuel generate pollutant \"blocks\" that collect in the sky. This pollution can be captured and potentially tuned into useful resources using a variety of devices.",
+		"",
+		"Filter hulls can have a filter installed in them that corresponds to a specific pollutant. When a pollutant block passes through a filter hull with the right filter, it will be collected. When a filter is saturated, it will get used up and the dust byproduct can be collected.",
+		"",
+		"The movement of pollutants can be controlled with Advanced Chimneys vents, pumps and chimneys. Vents will collect pollution blocks within a range of a few blocks that are on the same Y level as the vent, and connected pumps can be given a redstone signal to pull the pollutants towards themselves and output them into a chimney placed on top of the pump.",
+		"",
+		"From there, filter hulls can be placed on top of the chimney to collect the pollutants. You may want to build pollution emitters indoors to collect pollutants more easily.",
+		"",
+		"Filter hulls can also be placed on top of a pump to create an air filter, which will clean the filter's corresponding pollutant from the air in a given radius. Upgraded filter hulls clean the air in a larger radius."
+	],
+	dependencies: [
+		"54dc380e",
+		"8001f087",
+		"f1ff94b1"
+	],
+	size: 1.2d,
+	min_width: 400,
+	tasks: [{
+		uid: "03ebcd42",
+		type: "item",
+		title: "Craft a filter hull",
+		items: [{
+			item: "adpother:iron_filter"
+		}]
+	},
+	{
+		uid: "064a8577",
+		type: "item",
+		title: "Craft a pollutant filter",
+		icon: "contenttweaker:filter_carbon_primitive",
+		items: [{
+			item: "contenttweaker:filter_carbon_primitive"
+		},
+		{
+			item: "contenttweaker:filter_sulfur_primitive"
+		}]
+	},
+	{
+		uid: "3b2ef59e",
+		type: "checkmark",
+		title: "Check JEI for chimney, vent and pump recipes!"
+	}],
+	rewards: [{
+		uid: "9b2412b2",
+		type: "item",
+		item: "contenttweaker:filter_carbon_primitive",
+		count: 2
+	},
+	{
+		uid: "a3594a1a",
+		type: "item",
+		item: "contenttweaker:filter_sulfur_primitive",
+		count: 2
+	}]
+}

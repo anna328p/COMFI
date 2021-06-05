@@ -39,12 +39,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "218d5e25",
-		type: "item",
-		item: "gregtech:meta_item_1 1 32000",
-		random_bonus: 2
-	},
-	{
 		uid: "be641ed2",
 		type: "item",
 		item: {

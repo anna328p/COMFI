@@ -1,0 +1,48 @@
+{
+	title: "Cheesemaking",
+	icon: "animania:cheese_mold",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"§7Milk can be aged in a cheese mold to obtain cheese wheels. The wheels can be cut into wedges usable in cooking.",
+		"",
+		"Cheesemaking is a long process, so you may want to make multiple cheese molds."
+	],
+	dependencies: [
+		"361eb6b4"
+	],
+	tasks: [{
+		uid: "debbc692",
+		type: "item",
+		title: "Craft a cheese mold",
+		items: [{
+			item: "animania:cheese_mold"
+		}]
+	},
+	{
+		uid: "a3114fa3",
+		type: "item",
+		title: "Turn milk into cheese",
+		icon: "animania:holstein_cheese_wedge",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "foodCheese",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any foodCheese"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "77bb9cd7",
+		type: "item",
+		item: "animania:jersey_cheese_wedge",
+		count: 4
+	}]
+}

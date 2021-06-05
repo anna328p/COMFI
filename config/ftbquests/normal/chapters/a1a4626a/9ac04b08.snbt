@@ -1,0 +1,72 @@
+{
+	title: "Pollution Gear",
+	icon: {
+		ForgeCaps: {
+			"ocdevices:item_analyze": {}
+		},
+		id: "adpother:iron_vacuum_bag"
+	},
+	x: 10.0d,
+	y: -2.0d,
+	text: [
+		"§7Specialized gear can be crafted to clean and protect the player from pollution.",
+		"",
+		"Respirators can be worn to protect the player from negative pollution effects. They must have filters installed via an anvil to protect against a given pollutant.",
+		"",
+		"Pollution vacuums can be used to pull pollutant blocks towards the player, and collect them if a vacuum bag is worn and equipped with the corresponding filter (also via anvil!)"
+	],
+	dependencies: [
+		"e17a0d80",
+		"54dc380e",
+		"f1ff94b1"
+	],
+	min_width: 320,
+	tasks: [{
+		uid: "08303ce4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "adpother:iron_respirator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01e4b36e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "adpother:iron_vacuum_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5686cf4d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "adpother:iron_vacuum_tube"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "69ece7fd",
+		type: "item",
+		item: "contenttweaker:filter_carbon_primitive",
+		count: 2
+	},
+	{
+		uid: "055e3a19",
+		type: "item",
+		item: "contenttweaker:filter_sulfur_primitive",
+		count: 2
+	}]
+}
