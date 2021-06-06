@@ -29,11 +29,12 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 <animania:jersey_cheese_wedge>.foodValues.hunger = 2;
 <animania:holstein_cheese_wedge>.foodValues.hunger = 2;
 <animania:friesian_cheese_wedge>.foodValues.hunger = 2;
-<animania:super_omelette>.foodValues.hunger = 8;
-<animania:bacon_omelette>.foodValues.hunger = 4;
-<animania:cheese_omelette>.foodValues.hunger = 4;
-<animania:truffle_omelette>.foodValues.hunger = 4;
-<animania:plain_omelette>.foodValues.hunger = 2;
+<animania:super_omelette>.foodValues.hunger = 10;
+<animania:bacon_omelette>.foodValues.hunger = 6;
+<animania:cheese_omelette>.foodValues.hunger = 6;
+<animania:truffle_omelette>.foodValues.hunger = 6;
+<animania:plain_omelette>.foodValues.hunger = 4;
+<harvestcraft:mushroomketchupomeletitem>.foodValues.hunger = 5
 <animania:truffle_soup>.foodValues.hunger = 4;
 <animania:chocolate_truffle>.foodValues.hunger = 4;
 
@@ -54,6 +55,7 @@ recipes.remove(<animania:bacon_omelette>);
 recipes.remove(<animania:cheese_omelette>);
 recipes.remove(<animania:truffle_omelette>);
 recipes.remove(<animania:plain_omelette>);
+recipes.remove(<harvestcraft:mushroomketchupomeletitem>);
 recipes.remove(<animania:chocolate_truffle>);
 mods.jei.JEI.removeAndHide(<animania:carving_knife>);
 
@@ -64,11 +66,12 @@ recipes.addShapeless(<animania:sheep_cheese_wedge> * 4, [<animania:sheep_cheese_
 recipes.addShapeless(<animania:jersey_cheese_wedge> * 4, [<animania:jersey_cheese_wheel>, <ore:gregKnives>]);
 recipes.addShapeless(<animania:holstein_cheese_wedge> * 4, [<animania:holstein_cheese_wheel>, <ore:gregKnives>]);
 recipes.addShapeless(<animania:friesian_cheese_wedge> * 4, [<animania:friesian_cheese_wheel>, <ore:gregKnives>]);
-recipes.addShapeless(<animania:super_omelette>, [<ore:listAllegg>, <ore:listAllporkcooked>, <ore:foodCheese>, <animania:truffle>, <ore:toolSkillet>]);
-recipes.addShapeless(<animania:bacon_omelette>, [<ore:listAllegg>, <ore:listAllporkcooked>, <ore:toolSkillet>]);
-recipes.addShapeless(<animania:cheese_omelette>, [<ore:listAllegg>, <ore:foodCheese>, <ore:toolSkillet>]);
-recipes.addShapeless(<animania:truffle_omelette>, [<ore:listAllegg>, <animania:truffle>, <ore:toolSkillet>]);
-recipes.addShapeless(<animania:plain_omelette>, [<ore:listAllegg>, <ore:toolSkillet>]);
+recipes.addShapeless(<animania:super_omelette>, [<ore:listAllegg>, <ore:listAllegg>, <ore:listAllporkcooked>, <ore:foodCheese>, <animania:truffle>, <ore:toolSkillet>]);
+recipes.addShapeless(<animania:bacon_omelette>, [<ore:listAllegg>, <ore:listAllegg>, <ore:listAllporkcooked>, <ore:toolSkillet>]);
+recipes.addShapeless(<animania:cheese_omelette>, [<ore:listAllegg>, <ore:listAllegg>, <ore:foodCheese>, <ore:toolSkillet>]);
+recipes.addShapeless(<animania:truffle_omelette>, [<ore:listAllegg>, <ore:listAllegg>, <animania:truffle>, <ore:toolSkillet>]);
+recipes.addShapeless(<animania:plain_omelette>, [<ore:listAllegg>, <ore:listAllegg>, <ore:toolSkillet>]);
+recipes.addShapeless(<harvestcraft:mushroomketchupomeletitem>, [<ore:listAllegg>, <ore:listAllegg>, <harvestcraft:mushroomketchupitem>, <ore:toolSkillet>]);
 recipes.addShapeless(<animania:chocolate_truffle>, [<harvestcraft:chocolatebaritem>, <animania:truffle>, <ore:listAllsugar>, <ore:toolMixingbowl>]);
 recipes.addShapeless(<animania:block_straw>, [<ore:listAllgrain>, <ore:gregKnives>]);
 
