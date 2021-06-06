@@ -1,4 +1,4 @@
-# COMFI Indev-6
+# COMFI Indev-6.1
 
 This repository contains scripts and resources for building the COMFI client, and acts as a central development hub for the modpack.
 

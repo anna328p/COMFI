@@ -4,6 +4,7 @@
     "0:1": "gregtech:meta_tool,1,26,{MaxCharge:100000L,Charge:100000L,GT.ToolStats:{Material:\"steel\"}}",
     "0:3": "gregtech:meta_tool,1,34,{MaxCharge:100000L,Charge:100000L,GT.ToolStats:{Material:\"steel\"}}",
     "0:2": "gregtech:meta_tool,1,29,{MaxCharge:100000L,Charge:100000L,GT.ToolStats:{Material:\"steel\"}}",
-    "0:0": "gregtech:meta_tool,1,32,{MaxCharge:1600000L,Charge:1600000L,GT.ToolStats:{Material:\"damascus_steel\"}}"
+    "0:0": "gregtech:meta_tool,1,32,{MaxCharge:1600000L,Charge:1600000L,GT.ToolStats:{Material:\"damascus_steel\"}}",
+    "0:8": "ftbquests:book"
   }
 }

@@ -1,31 +1,30 @@
 import mods.contenttweaker.Item;
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;
+import mods.hungertweaker.FoodValues;
+import mods.jei.JEI;
 
 val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
 val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
 val wiremill = mods.gregtech.recipe.RecipeMap.getByName("wiremill");
+val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 
 # cookware, foodstuffs
 recipes.remove(<harvestcraft:saltitem>);
 recipes.remove(<harvestcraft:mortarandpestleitem>);
-recipes.remove(<harvestcraft:flouritem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
 recipes.remove(<harvestcraft:doughitem>);
 recipes.remove(<harvestcraft:beeswaxitem>);
 recipes.remove(<harvestcraft:freshwateritem>);
 recipes.remove(<harvestcraft:icecreamitem>);
 recipes.remove(<harvestcraft:wovencottonitem>);
+recipes.remove(<harvestcraft:stockitem>);
 
 # agriculture equipment
 recipes.remove(<harvestcraft:groundtrap>);
 recipes.remove(<harvestcraft:watertrap>);
 recipes.remove(<harvestcraft:waterfilter>);
-recipes.remove(<animania:block_nest>);
-recipes.remove(<animania:block_mud>);
-recipes.removeByRecipeName("animania:straw");
-recipes.remove(<animania:cheese_mold>);
-recipes.remove(<animania:block_trough>);
 recipes.remove(<cookingforblockheads:cooking_table>);
 recipes.remove(<cookingforblockheads:sink>);
 recipes.remove(<cookingforblockheads:tool_rack>);
@@ -119,6 +118,14 @@ recipes.remove(<travelersbackpack:travelers_backpack:0>);
 recipes.remove(<travelersbackpack:backpack_tank>);
 recipes.remove(<harvestcraft:hardenedleatheritem>);
 
+<quark:root>.foodValues.hunger = 1;
+<minecraft:fish>.foodValues.hunger = 1;
+<minecraft:fish:1>.foodValues.hunger = 1;
+<minecraft:cooked_fish>.foodValues.hunger = 2;
+<minecraft:cooked_fish:1>.foodValues.hunger = 2;
+
+<ftbquests:book>.addTooltip("Can be opened with hotkeys; default is GRAVE");
+
 recipes.addShaped(<fluidfunnel:funnel>, [
    [<ore:plateBronze>, <ore:gregWrenches>, <ore:plateBronze>],
    [<ore:plateBronze>, <minecraft:bucket>, <ore:plateBronze>],
@@ -141,41 +148,6 @@ recipes.addShaped(<harvestcraft:waterfilter>, [
    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
    [<minecraft:iron_bars>, <ore:frameGtWood>, <minecraft:iron_bars>],
    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]
-]);
-
-recipes.addShapeless(<animania:block_nest>, [<ore:listAllgrain>, <harvestcraft:wovencottonitem>, <ore:stickWood>]);
-recipes.addShapeless(<animania:block_mud> * 2, [<minecraft:water_bucket>, <minecraft:dirt>, <minecraft:dirt>]);
-
-mixer.recipeBuilder()
-   .inputs([<minecraft:dirt>])
-   .fluidInputs([<fluid:water> * 125])
-   .outputs(<animania:block_mud>)
-   .duration(80)
-   .EUt(8)
-   .buildAndRegister();
-
-recipes.addShaped(<animania:block_trough>, [
-   [<ore:screwIron>, <ore:plankWood>, <ore:screwIron>],
-   [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-   [<ore:stickWood>, <ore:gregScrewDrivers>, <ore:stickWood>]
-]);
-
-recipes.addShaped(<animania:block_trough>, [
-   [<ore:screwWroughtIron>, <ore:plankWood>, <ore:screwWroughtIron>],
-   [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-   [<ore:stickWood>, <ore:gregScrewDrivers>, <ore:stickWood>]
-]);
-
-recipes.addShaped(<animania:cheese_mold>, [
-   [null, null, null],
-   [<ore:plankWood>, <ore:ringIron>, <ore:plankWood>],
-   [<ore:gregKnives>, <ore:plankWood>, <ore:gregSoftHammers>]
-]);
-
-recipes.addShaped(<animania:cheese_mold>, [
-   [null, null, null],
-   [<ore:plankWood>, <ore:ringWroughtIron>, <ore:plankWood>],
-   [<ore:gregKnives>, <ore:plankWood>, <ore:gregSoftHammers>]
 ]);
 
 recipes.addShaped(<cookingforblockheads:cooking_table>, [
@@ -209,9 +181,9 @@ recipes.addShaped(<cookingforblockheads:toaster>, [
 ]);
 
 recipes.addShaped(<cookingforblockheads:oven>, [
-   [<ore:plateWroughtIron>, <ore:gregHardHammers>, <ore:plateWroughtIron>],
+   [<ore:plateIron>, <ore:gregHardHammers>, <ore:plateIron>],
    [<ore:paneGlass>, <minecraft:furnace>, <ore:paneGlass>],
-   [<ore:plateWroughtIron>, <ore:chestWood>, <ore:plateWroughtIron>]
+   [<ore:plateIron>, <ore:chestWood>, <ore:plateIron>]
 ]);
 
 recipes.addShaped(<cookingforblockheads:oven>, [
@@ -297,8 +269,17 @@ recipes.addShaped(<travelersbackpack:travelers_backpack>.withTag({}), [
 ]);
 
 # Various foodstuff recipes
+macerator.findRecipe(8, [<minecraft:wheat>], null).remove();
+
+macerator.recipeBuilder()
+   .inputs([<ore:listAllgrain>])
+   .outputs(<ore:dustWheat>.firstItem)
+   .duration(30)
+   .EUt(8)
+   .buildAndRegister();
+
 recipes.replaceAllOccurences(<harvestcraft:flouritem>, <ore:dustWheat>);
-recipes.replaceAllOccurences(<harvestcraft:mortarandpestleitem>, <ore:gregMortars>);
+recipes.addShapeless(<ore:dustWheat>.firstItem, [<ore:listAllgrain>, <ore:gregMortars>]);
 
 recipes.addShapeless(<harvestcraft:doughitem>, [<harvestcraft:mixingbowlitem>, <ore:dustWheat>, <ore:dustWheat>, <ore:dustWheat>, <harvestcraft:freshwateritem>]);
 
@@ -348,13 +329,10 @@ extractor.recipeBuilder()
 # Woven Cotton recipes
 recipes.addShapeless(<harvestcraft:wovencottonitem>, [<minecraft:string>, <minecraft:string>, <ore:cropCotton>]);
 
-# Animania-related recipes
-recipes.replaceAllOccurences(<animania:carving_knife>, <ore:gregKnives>);
-
 # Remove HC cheese recipe
 recipes.remove(<harvestcraft:cheeseitem>);
 
-recipes.addShapeless(<ore:seedWheat>.firstItem, [<minecraft:wheat>, <ore:gregKnives>]);
+recipes.addShapeless(<ore:seedWheat>.firstItem, [<minecraft:wheat>]);
 
 # Adpother Recipes
 recipes.addShaped(<adpother:iron_respirator>, [

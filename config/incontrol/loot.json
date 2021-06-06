@@ -1,7 +1,73 @@
 [
     {
-        "mob": ["minecraft:sheep", "minecraft:cow", "minecraft:pig"],
+        "mob": [
+            "animania:bull_angus",
+            "animania:cow_angus",
+            "animania:bull_holstein",
+            "animania:cow_holstein",
+            "animania:bull_friesian",
+            "animania:cow_friesian",
+            "animania:bull_hereford",
+            "animania:cow_hereford",
+            "animania:bull_longhorn",
+            "animania:cow_longhorn",
+            "animania:bull_highland",
+            "animania:cow_highland",
+            "animania:bull_jersey",
+            "animania:cow_jersey",
+            "animania:bull_mooshroom",
+            "animania:cow_mooshroom",
+
+            "animania:hog_yorkshire",
+            "animania:sow_yorkshire",
+            "animania:hog_old_spot",
+            "animania:sow_old_spot",
+            "animania:hog_large_black",
+            "animania:sow_large_black",
+            "animania:hog_large_white",
+            "animania:sow_large_white",
+            "animania:hog_duroc",
+            "animania:sow_duroc",
+            "animania:hog_hampshire",
+            "animania:sow_hampshire",
+
+            "animania:stallion_draft",
+            "animania:mare_draft"
+        ],
         "item": "minecraft:bone",
         "itemcount": "1/1-2/2-3"
+    },
+    {
+        "mob": [
+            "animania:buck_alpine",
+            "animania:doe_alpine",
+            "animania:buck_angora",
+            "animania:doe_angora",
+            "animania:buck_fainting",
+            "animania:doe_fainting",
+            "animania:buck_kiko",
+            "animania:doe_kiko",
+            "animania:buck_kinder",
+            "animania:doe_kinder",
+            "animania:buck_nigerian_dwarf",
+            "animania:doe_nigerian_dwarf",
+            "animania:buck_pygmy",
+            "animania:doe_pygmy",
+
+            "animania:ram_friesian",
+            "animania:ewe_friesian",
+            "animania:ram_suffolk",
+            "animania:ewe_suffolk",
+            "animania:ram_dorper",
+            "animania:ewe_dorper",
+            "animania:ram_dorset",
+            "animania:ewe_dorset",
+            "animania:ram_merino",
+            "animania:ewe_merino",
+            "animania:ram_jacob",
+            "animania:ewe_jacob"
+        ],
+        "item": "minecraft:bone",
+        "itemcount": "0-1/1/1-2"
     }
 ]

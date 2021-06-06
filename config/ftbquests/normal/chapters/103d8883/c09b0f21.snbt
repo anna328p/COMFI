@@ -10,6 +10,7 @@
 	dependencies: [
 		"97da5b93"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "cad29440",
 		type: "item",
