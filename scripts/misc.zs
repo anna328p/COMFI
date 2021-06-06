@@ -14,6 +14,8 @@ val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 recipes.remove(<harvestcraft:saltitem>);
 recipes.remove(<harvestcraft:mortarandpestleitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:flouritem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:cheeseitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:omeletitem>);
 recipes.remove(<harvestcraft:doughitem>);
 recipes.remove(<harvestcraft:beeswaxitem>);
 recipes.remove(<harvestcraft:freshwateritem>);
@@ -123,7 +125,9 @@ recipes.remove(<harvestcraft:hardenedleatheritem>);
 <minecraft:fish:1>.foodValues.hunger = 1;
 <minecraft:cooked_fish>.foodValues.hunger = 2;
 <minecraft:cooked_fish:1>.foodValues.hunger = 2;
+<harvestcraft:honeyitem>.foodValues.hunger = 1;
 
+<harvestcraft:mushroomketchupomeletitem>.displayName = "Mushroom Ketchup Omelette";
 <ftbquests:book>.addTooltip("Can be opened with hotkeys; default is GRAVE");
 
 recipes.addShaped(<fluidfunnel:funnel>, [
@@ -328,9 +332,6 @@ extractor.recipeBuilder()
 
 # Woven Cotton recipes
 recipes.addShapeless(<harvestcraft:wovencottonitem>, [<minecraft:string>, <minecraft:string>, <ore:cropCotton>]);
-
-# Remove HC cheese recipe
-recipes.remove(<harvestcraft:cheeseitem>);
 
 recipes.addShapeless(<ore:seedWheat>.firstItem, [<minecraft:wheat>]);
 
