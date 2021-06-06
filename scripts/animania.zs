@@ -34,7 +34,7 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 <animania:cheese_omelette>.foodValues.hunger = 6;
 <animania:truffle_omelette>.foodValues.hunger = 6;
 <animania:plain_omelette>.foodValues.hunger = 4;
-<harvestcraft:mushroomketchupomeletitem>.foodValues.hunger = 5
+<harvestcraft:mushroomketchupomeletitem>.foodValues.hunger = 5;
 <animania:truffle_soup>.foodValues.hunger = 4;
 <animania:chocolate_truffle>.foodValues.hunger = 4;
 
