@@ -1,6 +1,7 @@
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
 import mods.gregtech.recipe.PBFRecipeBuilder;
+import mods.gtadditions.recipe.Utils;
 import mods.jei.JEI;
 
 val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
@@ -10,6 +11,8 @@ val forge_hammer = mods.gregtech.recipe.RecipeMap.getByName("forge_hammer");
 val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
 val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 val extractor = mods.gregtech.recipe.RecipeMap.getByName("extractor");
+val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
+val circuit_assembler = mods.gregtech.recipe.RecipeMap.getByName("circuit_assembler");
 
 for recipe in RecipeMaps.getPrimitiveBlastFurnaceRecipes() {
     recipe.remove();
@@ -17,6 +20,8 @@ for recipe in RecipeMaps.getPrimitiveBlastFurnaceRecipes() {
 
 recipes.remove(<ore:cableGtSingleRedAlloy>);
 recipes.remove(<ore:cableGtSingleTin>);
+# field generators
+recipes.remove(<gregtech:meta_item_1:32670>);
 # crafting station
 recipes.remove(<gregtech:machine:825>);
 # firebricks
@@ -111,6 +116,9 @@ forming_press.findRecipe(16, [<ore:plateCupronickel>.firstItem, <gregtech:meta_i
 macerator.findRecipe(2, [<minecraft:reeds>], null).remove();
 compressor.findRecipe(2, [<gregtech:meta_item_1:2325> * 9], null).remove();
 
+Utils.removeRecipeByOutput(circuit_assembler, [<gtadditions:ga_meta_item:32579>], [], true);
+Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_1:32670>], [], true);
+
 # Fireclay recipe
 mixer.recipeBuilder()
     .inputs([<ore:dustBrick>, <ore:dustClay>])
@@ -153,7 +161,7 @@ alloy_smelter.recipeBuilder()
 # Steam-age rubber recipes
 alloy_smelter.recipeBuilder()
     .inputs([<ore:dustRawRubber> * 3, <ore:dustSulfur>])
-    .outputs(<ore:ingotRubber>.firstItem)
+    .outputs(<ore:ingotRubber>.firstItem * 3)
     .duration(300)
     .EUt(16)
     .buildAndRegister();
@@ -220,5 +228,62 @@ recipes.addShaped(<gregtech:metal_casing:1> * 2, [
     [<gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>, <gregtech:meta_item_2:32015>]
 ]);
 
+# LEDs & displays
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_2:32451> * 8, <ore:wireFineAluminium> * 4, <ore:dustGlass>, <ore:dyeRed>, <ore:dyeGreen>, <ore:dyeBlue>])
+    .fluidInputs(<fluid:soldering_alloy> * 72)
+    .outputs(<gtadditions:ga_meta_item:32578> * 4)
+    .duration(400)
+    .EUt(64)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_2:32451> * 8, <ore:wireFineAluminium> * 4, <ore:dustGlass>, <ore:dyeRed>, <ore:dyeGreen>, <ore:dyeBlue>])
+    .fluidInputs(<fluid:tin> * 144)
+    .outputs(<gtadditions:ga_meta_item:32578> * 4)
+    .duration(400)
+    .EUt(64)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_2:32451> * 8, <ore:wireFineAluminium> * 4, <ore:dustGlass>, <ore:dyeRed>, <ore:dyeGreen>, <ore:dyeBlue>])
+    .fluidInputs(<fluid:lead> * 288)
+    .outputs(<gtadditions:ga_meta_item:32578> * 4)
+    .duration(400)
+    .EUt(64)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<gtadditions:ga_meta_item:32578> * 4, <ore:wireFineAluminium> * 4, <gregtech:meta_item_2:32448>])
+    .fluidInputs(<fluid:soldering_alloy> * 72)
+    .outputs(<gtadditions:ga_meta_item:32579>)
+    .duration(400)
+    .EUt(64)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<gtadditions:ga_meta_item:32578> * 4, <ore:wireFineAluminium> * 4, <gregtech:meta_item_2:32448>])
+    .fluidInputs(<fluid:tin> * 144)
+    .outputs(<gtadditions:ga_meta_item:32579>)
+    .duration(400)
+    .EUt(64)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<gtadditions:ga_meta_item:32578> * 4, <ore:wireFineAluminium> * 4, <gregtech:meta_item_2:32448>])
+    .fluidInputs(<fluid:lead> * 288)
+    .outputs(<gtadditions:ga_meta_item:32579>)
+    .duration(400)
+    .EUt(64)
+    .buildAndRegister();
+
+# field generators
+assembler.recipeBuilder()
+    .inputs([<ore:circuitBasic> * 2, <ore:enderpearl> * 2, <gregtech:meta_item_2:32456> * 4])
+    .outputs(<gregtech:meta_item_1:32670>)
+    .duration(320)
+    .EUt(30)
+    .buildAndRegister();
+
 # custom tooltips
-<gregtech:machine:4021>.addTooltip(format.red("Must be used on a space station")); # Stellar Forge
+// <gregtech:machine:4021>.addTooltip(format.red("Must be used on a space station"));

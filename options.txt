@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["unity-comfi.zip","zedtech-gtce-0.4.1.zip", "comfi"]
+resourcePacks:["unity-comfi.zip","zedtech-gtce-0.5.1.zip", "comfi"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

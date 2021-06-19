@@ -1,8 +1,17 @@
 tile.contenttweaker.cheetor_cube.name=cheetor cube
 
-item.contenttweaker.filter_carbon_primitive.name=Primitive Carbon Filter
-item.contenttweaker.filter_sulfur_primitive.name=Primitive Sulfur Filter
-item.contenttweaker.filter_dust_primitive.name=Primitive Dust Filter
+item.contenttweaker.filter_carbon_primitive.name=Primitive Pollutant Filter (Carbon)
+item.contenttweaker.filter_sulfur_primitive.name=Primitive Pollutant Filter (Sulfur)
+item.contenttweaker.filter_dust_primitive.name=Primitive Pollutant Filter (Dust)
+item.contenttweaker.lens_quartzite.name=Quartzite Lens
+item.contenttweaker.gpu_wafer.name=GPU Wafer
+item.contenttweaker.gpu_die.name=Graphics Processing Unit
+item.contenttweaker.fluix_processor_wafer.name=ME Signal Processor Wafer
+item.contenttweaker.fluix_processor_die.name=ME Signal Processor
+item.contenttweaker.fluix_memory_wafer.name=ME Memory Wafer
+item.contenttweaker.fluix_memory_die.name=ME Memory
+item.contenttweaker.fluix_boule.name=Fluix Boule
+item.contenttweaker.fluix_wafer.name=Fluix Wafer
 item.contenttweaker.lively_blend.name=Lively Blend
 item.contenttweaker.form_clay_soldier.name=Clay Soldier Wooden Form
 item.contenttweaker.mold_clay_soldier.name=Mold (Clay Soldier)
