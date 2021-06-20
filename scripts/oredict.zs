@@ -5,7 +5,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
 import mods.jei.JEI;
 
-static mods as string[] = ["minecraft", "gregtech", "thermalfoundation", "advancedrocketry", "libvulpes"];
+static mods as string[] = ["minecraft", "gregtech", "thermalfoundation", "advancedrocketry", "libvulpes", "appliedenergistics2"];
 static size as int = mods.length - 1;
 
 function unify_oredicts (oredict as [IOreDictEntry]) {
@@ -49,6 +49,8 @@ function unify (ore as IOreDictEntry, p as int) {
         unify(ore, pos);
     }
 }
+
+<ore:crystalCertusQuartz>.add(<gregtech:meta_item_1:8202>);
 
 unify_oredicts(<ore:ingot*>);
 unify_oredicts(<ore:plate*>);
